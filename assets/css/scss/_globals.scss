@@ -1,0 +1,55 @@
+:root {
+  --color-page: #138444;
+  --color-group: #E5E5E5;
+  --color-codeblock: #E5E5E5;
+  --color-code: #e0e0e0;
+  --color-main: #F0F0F0;
+  --color-shadow: rgba(0,0,0,0.06);
+
+  --color-text: #292929;
+  --color-text-emphasized: #000000;
+  --color-text-dimmed: rgba(0,0,0,0.62);
+  --color-text-link: #007533;
+  --color-text-link-hover: #007533;
+  --color-text-link-navigation: #ffffff;
+  --color-text-link-sidebar-navigation: rgba(0,0,0,0.62);
+  --color-text-link-sidebar-navigation-hover: #000000;
+  --color-text-inverted: #ffffff;
+  --color-title: #ffffff;
+  --color-text-legal: rgba(255,255,255,0.65);
+  --color-text-code: #3B3B3B;
+
+  @media (color-gamut: p3){
+    --color-text-link: color(display-p3 0 0.46 0.061);
+    --color-text-link-hover: color(display-p3 0 0.46 0.061);
+  }
+}
+
+@media (prefers-color-scheme: dark){
+  :root {
+    --color-page: #003D2A;
+    --color-group: #101916;
+    --color-codeblock: #232323;
+    --color-code: #333333;
+    --color-main: #0D0D0D;
+    --color-shadow: rgba(255,255,255,.12);
+
+    --color-text: #CCCCCC;
+    --color-text-emphasized: #D1D1D1;
+    --color-text-dimmed: rgba(204, 204, 204, 0.7);
+    --color-text-link: #00D667;
+    --color-text-link-navigation: #cccccc;
+    --color-text-link-sidebar-navigation: rgba(204, 204, 204, 0.7);
+    --color-text-link-sidebar-navigation-hover: #cccccc;
+    --color-text-inverted: ##CCCCCC;
+    --color-title: #CCCCCC;
+    --color-text-legal: rgba(204, 204, 204, 0.7);
+    --color-text-code: #D6D6D6;
+
+    @media (color-gamut: p3){
+      --color-page: color(display-p3 0.026 0.234 0.14);
+      --color-text-link: color(display-p3 0 0.64 0.309);
+      --color-text-link-hover: color(display-p3 0 0.64 0.309);
+    }
+  }
+}

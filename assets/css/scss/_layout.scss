@@ -1,0 +1,123 @@
+header, .article-title {
+  position: fixed;
+
+  inset: 0 0 auto 0;
+  padding: 2rem 1rem;
+
+  background: var(--color-page);
+  box-shadow: 0 0 1.5rem -.5rem var(--color-page);
+}
+
+footer {
+  margin: 1rem;
+}
+
+.article-title {
+  inset: 11.5rem 1rem auto 1rem;
+  padding: 0;
+  z-index: -1;
+
+  h1, time {
+    display: block;
+    margin: 0 auto;
+    line-height: 1.2;
+    max-width: calc(16cm - 2rem);
+
+    @media (694px < width < 1024px){
+      text-align: center;
+    }
+  }
+
+  time {
+    color: var(--color-text-legal);
+  }
+}
+
+nav {
+  --color-text-link: var(--color-text-link-navigation);
+  --color-text-link-hover: var(--color-text-link-navigation);
+  --link-decoration: none;
+  --link-decoration-hover: underline;
+}
+
+ol.layout-row, ul.layout-row {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  li {
+    display: block;
+    margin: 0;
+  }
+}
+
+.left-right-divide {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  & > *:last-child {
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+}
+
+.article-layout {
+  margin: 23rem auto 5rem auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  min-height: calc(100vh - 34rem);
+  background: var(--color-main);
+  box-shadow: 0 0 16rem var(--color-shadow);
+  max-width: 1264px;
+
+  display: flex;
+  @media (max-width: 694px){
+    display: block;
+  }
+  justify-items: stretch;
+
+  .left {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 25%;
+    background: var(--color-group);
+
+    padding: 1rem;
+  }
+
+  .main {
+    flex-basis: 16cm;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    @media (min-width: 1024px) {
+      flex-shrink: 0;
+    }
+
+    padding: 1rem;
+  }
+
+  .right {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 25%;
+
+    padding: 1rem;
+
+    @media (max-width: 1023px){
+      display: none;
+    }
+  }
+}
+
+.sidebar {
+  --color-text-link: var(--color-text-link-sidebar-navigation);
+  --color-text-link-hover: var(--color-text-link-sidebar-navigation-hover);
+
+  min-width: 9rem;
+  max-width: 14rem;
+}
