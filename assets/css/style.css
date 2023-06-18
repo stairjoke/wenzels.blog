@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --color-page: #138444;
   --color-group: #E5E5E5;
@@ -219,10 +218,13 @@ ol.layout-row li, ul.layout-row li {
 }
 
 .sidebar {
+  color: var(--color-text-link-sidebar-navigation);
   --color-text-link: var(--color-text-link-sidebar-navigation);
   --color-text-link-hover: var(--color-text-link-sidebar-navigation-hover);
   min-width: 9rem;
-  max-width: 14rem;
+}
+.sidebar ol, .sidebar ul {
+  padding-left: 2em;
 }
 
 body {
@@ -236,8 +238,22 @@ a, a:link, a:active, a:visited, a:hover, a:focus {
   text-decoration: var(--link-decoration, underline);
 }
 a[target=_blank]::after, a[href^=http]::after, a:link[target=_blank]::after, a:link[href^=http]::after, a:active[target=_blank]::after, a:active[href^=http]::after, a:visited[target=_blank]::after, a:visited[href^=http]::after, a:hover[target=_blank]::after, a:hover[href^=http]::after, a:focus[target=_blank]::after, a:focus[href^=http]::after {
-  display: inline;
-  content: " ➚";
+  display: inline-block;
+  content: " (ext)";
+  color: transparent;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin: 1px 0.2rem -1px 0.2rem;
+  overflow: hidden;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="white" fill-rule="evenodd" clip-rule="evenodd" d="M4 0H5V1.61538H4.11538C2.73467 1.61538 1.61538 2.73467 1.61538 4.11539V9.88462C1.61538 11.2653 2.73467 12.3846 4.11539 12.3846H9.88462C11.2653 12.3846 12.3846 11.2653 12.3846 9.88461V9H14V10C14 12.2091 12.2091 14 10 14H4C1.79086 14 0 12.2091 0 10V4C0 1.79086 1.79086 0 4 0ZM8 0V1.61538H11.3846L7.5 5.5L8.5 6.5L12.3846 2.61539V6H14V1C14 0.447715 13.5523 0 13 0H8Z" /></svg>');
+  -webkit-mask-position: bottom right;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-image: url('data:image/svg+xml;utf8,<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="white" fill-rule="evenodd" clip-rule="evenodd" d="M4 0H5V1.61538H4.11538C2.73467 1.61538 1.61538 2.73467 1.61538 4.11539V9.88462C1.61538 11.2653 2.73467 12.3846 4.11539 12.3846H9.88462C11.2653 12.3846 12.3846 11.2653 12.3846 9.88461V9H14V10C14 12.2091 12.2091 14 10 14H4C1.79086 14 0 12.2091 0 10V4C0 1.79086 1.79086 0 4 0ZM8 0V1.61538H11.3846L7.5 5.5L8.5 6.5L12.3846 2.61539V6H14V1C14 0.447715 13.5523 0 13 0H8Z" /></svg>');
+  mask-position: bottom right;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  background: var(--color-text-link);
 }
 
 a:hover, a:focus {
