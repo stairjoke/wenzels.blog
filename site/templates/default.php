@@ -58,11 +58,17 @@ Also works</pre>
 			<nav class="left-right-divide">
 				<div class="layout-row"><?= $site->socials()->kt() ?></div>
 				<ul class="layout-row">
-					<li><a href="#">Legal Disclosure</a></li>
-					<li><a href="#">Privacy Policy</a></li>
+					<li><?php
+						$legalDisclosure = $site->find('legal-disclosure');
+						echo("<a href='{$legalDisclosure->url()}'>{$legalDisclosure->title()}</a>");
+					?></li>
+					<li><?php
+							$privacy = $site->find('privacy');
+							echo("<a href='{$privacy->url()}'>{$privacy->title()}</a>");
+						?></li>
 				</ul>
 			</nav>
-			<p class="legal">© Copyright 2023 Wenzel Massag. Links to other websites are marked with an icon and "(ext)" for screen readers: <a target="_blank">example.</a></p>
+			<p class="legal"><?= $site->legal()->kirbytextinline() ?></p>
 		</footer>
 	</body>
 </html>
