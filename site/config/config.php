@@ -1,6 +1,6 @@
 <?php
 	return [
-		'debug' => false,
+		'debug' => true,
 		'languages' => true,
 		'languages.detect' => true,
 		'url' => '/',
