@@ -18,7 +18,7 @@
 					<li><a href="#">Feed</a></li>
 					<li><nobr><a href="#" target="_blank">Portfolio</a></nobr></li>
 				</ol>
-				<a href="#">🇩🇪 Auf deutsch lesen!</a>
+				<a href="<?= ($kirby->language() == "en") ? $page->url('de') : $page->url('en'); ?>"><?= $site->switchLanguage() ?></a>
 			</nav>
 		</header>
 		<main>
@@ -56,12 +56,7 @@ Also works</pre>
 		</main>
 		<footer>
 			<nav class="left-right-divide">
-				<ul class="layout-row">
-					<li><nobr><a href="#" target="_blank">Mastodon</a></nobr></li>
-					<li><nobr><a href="#" target="_blank">Posts.cv</a></nobr></li>
-					<li><nobr><a href="#" target="_blank">BlueSky</a></nobr></li>
-					<li><nobr><a href="#" target="_blank">Find Me</a></nobr></li>
-				</ul>
+				<div class="layout-row"><?= $site->socials()->kt() ?></div>
 				<ul class="layout-row">
 					<li><a href="#">Legal Disclosure</a></li>
 					<li><a href="#">Privacy Policy</a></li>
