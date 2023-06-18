@@ -40,7 +40,7 @@ nav {
   --link-decoration-hover: underline;
 }
 
-ol.layout-row, ul.layout-row {
+.layout-row > ul, .layout-row > ol, ul.layout-row, ol.layout-row {
   margin: 0;
   padding: 0;
   list-style: none;

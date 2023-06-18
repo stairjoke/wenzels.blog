@@ -148,7 +148,7 @@ nav {
   --link-decoration-hover: underline;
 }
 
-ol.layout-row, ul.layout-row {
+.layout-row > ul, .layout-row > ol, ul.layout-row, ol.layout-row {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -156,7 +156,7 @@ ol.layout-row, ul.layout-row {
   gap: 1rem;
   flex-wrap: wrap;
 }
-ol.layout-row li, ul.layout-row li {
+.layout-row > ul li, .layout-row > ol li, ul.layout-row li, ol.layout-row li {
   display: block;
   margin: 0;
 }
