@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://use.typekit.net/pqb7qdl.css">
 		<?= css('assets/css/style.css') ?>
+		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#003D2A">
+		<meta name="theme-color" content="#138444">
 	</head>
 	<body>
 		<header>
@@ -65,7 +67,7 @@ Also works</pre>
 					<li><a href="#">Privacy Policy</a></li>
 				</ul>
 			</nav>
-			<p class="legal">© Copyright 2023 Wenzel Massag</p>
+			<p class="legal">© Copyright 2023 Wenzel Massag. Links to other websites are marked with an icon and "(ext)" for screen readers: <a target="_blank">example.</a></p>
 		</footer>
 	</body>
 </html>
