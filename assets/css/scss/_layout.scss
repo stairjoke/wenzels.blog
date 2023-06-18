@@ -115,9 +115,13 @@ ol.layout-row, ul.layout-row {
 }
 
 .sidebar {
+  color: var(--color-text-link-sidebar-navigation);
   --color-text-link: var(--color-text-link-sidebar-navigation);
   --color-text-link-hover: var(--color-text-link-sidebar-navigation-hover);
 
+  ol, ul {
+    padding-left: 2em;
+  }
+
   min-width: 9rem;
-  max-width: 14rem;
 }
