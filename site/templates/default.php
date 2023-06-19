@@ -13,9 +13,12 @@
 		<header>
 			<nav class="left-right-divide layout-row">
 				<ol class="layout-row">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Feed</a></li>
+					<?php
+						foreach($site->children()->listed() as $child){
+							$linkedPage = $site->find($child);
+							echo(linkToPage($linkedPage));
+						}
+					?>
 					<li><nobr><a href="#" target="_blank">Portfolio</a></nobr></li>
 				</ol>
 				<a href="<?= ($kirby->language() == "en") ? $page->url('de') : $page->url('en'); ?>"><?= $site->switchLanguage() ?></a>
@@ -60,11 +63,11 @@ Also works</pre>
 				<ul>
 					<li><?php
 						$legalDisclosure = $site->find('legal-disclosure');
-						echo("<a href='{$legalDisclosure->url()}'>{$legalDisclosure->title()}</a>");
+						echo(linkToPage($legalDisclosure));
 					?></li>
 					<li><?php
 							$privacy = $site->find('privacy');
-							echo("<a href='{$privacy->url()}'>{$privacy->title()}</a>");
+							echo(linkToPage($privacy));
 						?></li>
 				</ul>
 			</nav>
