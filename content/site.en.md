@@ -15,4 +15,4 @@ socials:
 
 ----
 
-legal: © Copyright 2023, Wenzel Massag. Links to other websites are marked with an icon and "(ext)" for screen readers: (link: # text: example. target: _blank)
+legal: © Copyright 2023, Wenzel Massag.
