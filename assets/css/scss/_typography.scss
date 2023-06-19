@@ -24,6 +24,8 @@ body {
 
 .legal {
   color: var(--color-text-legal);
+  --color-text-link: var(--color-text-legal);
+  --color-text-link-hover: var(--color-text-legal);
 }
 
 blockquote, q {
