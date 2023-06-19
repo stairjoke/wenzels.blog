@@ -27,7 +27,7 @@
 		<main>
 			<article>
 				<div class="article-title">
-					<h1>Blogpost Title of This Post</h1>
+					<h1><?= $page->title() ?></h1>
 					<time>June 11, 2023, Wenzel Massag.</time>
 				</div>
 				<div class="article-layout">
@@ -44,14 +44,7 @@
 						</nav>
 					</div>
 					<div class="main">
-						<p><em>This is emphasized text.</em> The content part scrolls up above the title, the title stays put when scrolling. The Top navigation sticks to the top and is above the content. <a href="#">This is a link,</a> and <a href="#" target="_blank">this is an external link.</a> This is inline <code>code</code>. Similarly <q>inline quotes should be easily distinguishable!</q></p>
-						<pre>Block-level Code
-Also works</pre>
-						<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-						<blockquote>
-							Thi sis a quote. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.
-						</blockquote>
-						<p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<?= $page->text()->kt() ?>
 					</div>
 					<div class="right"></div>
 				</div>
