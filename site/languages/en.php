@@ -9,7 +9,7 @@ return [
     ],
     'name' => 'English',
     'translations' => [
-
+        'pubdate' => 'Published on'
     ],
     'url' => NULL
 ];
