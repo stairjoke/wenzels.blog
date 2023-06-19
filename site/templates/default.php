@@ -28,7 +28,12 @@
 			<article>
 				<div class="article-title">
 					<h1><?= $page->title() ?></h1>
-					<time>June 11, 2023, Wenzel Massag.</time>
+					<time datetime="<?= $page->date()->toDate('Y-MM-FF kk-mm-ss.SSSxxx') ?>">
+						<?php
+							echo(t('pubdate') . ' ');
+							echo($page->date()->toDate(new IntlDateFormatter($kirby->language()->locale(LC_COLLATE), IntlDateFormatter::RELATIVE_LONG, IntlDateFormatter::SHORT, 'Europe/Berlin')));
+							?> by Wenzel Massag.
+					</time>
 				</div>
 				<div class="article-layout">
 					<div class="left">
