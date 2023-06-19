@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="left-right-divide">
+			<nav class="left-right-divide layout-row">
 				<ol class="layout-row">
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>
@@ -55,9 +55,9 @@ Also works</pre>
 			</article>
 		</main>
 		<footer>
-			<nav class="left-right-divide">
-				<div class="layout-row"><?= $site->socials()->kt() ?></div>
-				<ul class="layout-row">
+			<nav class="left-right-divide layout-row">
+				<?= $site->socials()->kt() ?>
+				<ul>
 					<li><?php
 						$legalDisclosure = $site->find('legal-disclosure');
 						echo("<a href='{$legalDisclosure->url()}'>{$legalDisclosure->title()}</a>");
