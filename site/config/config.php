@@ -9,6 +9,7 @@
 		],
 		'markdown' => [
 			'extra' => true
-		]
+		],
+		'date.handler' => 'intl'
 	];
 ?>
