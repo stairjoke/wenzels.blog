@@ -1,5 +1,6 @@
 :root {
   --color-page: #138444;
+  --color-page-glass: rgba(19, 132, 68, 0.9);
   --color-group: #E5E5E5;
   --color-codeblock: #E5E5E5;
   --color-code: #e0e0e0;
@@ -28,11 +29,12 @@
 @media (prefers-color-scheme: dark){
   :root {
     --color-page: #003D2A;
+    --color-page-glass: rgba(0, 61, 42, 0.9);
     --color-group: #101916;
     --color-codeblock: #232323;
     --color-code: #333333;
     --color-main: #0D0D0D;
-    --color-shadow: rgba(255,255,255,.12);
+    --color-shadow: rgba(255,255,255,.06);
 
     --color-text: #CCCCCC;
     --color-text-emphasized: #D1D1D1;

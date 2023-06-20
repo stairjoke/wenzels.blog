@@ -27,8 +27,10 @@ header, .article-title {
 
   inset: 0 0 auto 0;
 
-  background: var(--color-page);
-  box-shadow: 0 0 1.5rem -.5rem var(--color-page);
+  background: var(--color-page-glass);
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+  box-shadow: 0 0 1.5rem -.5rem var(--color-page-glass);
 }
 
 .vertical-flex {
