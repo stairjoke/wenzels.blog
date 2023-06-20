@@ -111,13 +111,27 @@ code {
   background: var(--color-code);
 }
 
+:root {
+  --scroll-offset: 6.4rem;
+}
+
+[id] {
+  scroll-margin-top: var(--scroll-offset);
+}
+
 header, .article-title {
   position: fixed;
+  padding: 2rem 1rem;
   z-index: 2;
   inset: 0 0 auto 0;
-  padding: 2rem 1rem;
   background: var(--color-page);
   box-shadow: 0 0 1.5rem -0.5rem var(--color-page);
+}
+@media (max-width: 693px) {
+  header, .article-title {
+    position: static;
+    padding: 0 0 2rem 0;
+  }
 }
 
 footer {
@@ -128,6 +142,12 @@ footer {
   inset: 11.5rem 1rem auto 1rem;
   padding: 0;
   z-index: -1;
+}
+@media (max-width: 693px) {
+  .article-title {
+    position: sticky;
+    inset: 1rem 1rem;
+  }
 }
 .article-title h1, .article-title time {
   display: block;
@@ -193,6 +213,11 @@ main figure, main img, main video {
   display: flex;
   justify-items: stretch;
 }
+@media (max-width: 693px) {
+  .article-layout {
+    margin: 5rem auto 5rem auto;
+  }
+}
 @media (max-width: 694px) {
   .article-layout {
     display: block;
@@ -242,7 +267,7 @@ main figure, main img, main video {
   --color-text-link-hover: var(--color-text-link-sidebar-navigation-hover);
   position: sticky;
   z-index: 1;
-  top: 6.4rem;
+  top: var(--scroll-offset);
   min-width: 11rem;
 }
 @media (max-width: 694px) {
