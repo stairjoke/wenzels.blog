@@ -9,7 +9,8 @@ return [
     ],
     'name' => 'English',
     'translations' => [
-        'pubdate' => 'Published on'
+        'publishedDate' => 'Published on',
+        'publishedBy' => 'by'
     ],
     'url' => NULL
 ];
