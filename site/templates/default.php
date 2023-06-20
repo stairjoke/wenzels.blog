@@ -51,6 +51,8 @@
 					</div>
 					<div class="main">
 						<?= kt($resultOfInlineNavigation[0]) ?>
+						<hr />
+						<p>Permalinks: <a href="<?= $page->url('en') ?>" title="permalink">🇺🇸</a>, <a href="<?= $page->url('de') ?>" title="permalink">🇩🇪</a></p>
 					</div>
 					<div class="right"></div>
 				</div>
