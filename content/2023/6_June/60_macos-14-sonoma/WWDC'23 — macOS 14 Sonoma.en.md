@@ -6,20 +6,6 @@ Date: 2023-6-6 20:45
 
 ----
 
-OGImage: OGImage.jpg
-
-----
-
-OGImageALT: The image shows Apple’s macOS Sonoma branding.
-
-----
-
-Teaser:
-
-Yesterday, Apple streamed its opening keynote for the annual World Wide Developers Conference 2023. They announced some truly groundbreaking new hardware I am looking forward to writing about, but before I do that in a future post, I want to focus on the Mac. Before Apple unveiled the VisionPro, they raced through an incredible number of updates for iOS, iPadOS, tvOS, and macOS — in fact, I think the updates to those platforms alone could have filled an entire keynote.
-
-----
-
 Text:
 
 Yesterday, Apple streamed its opening keynote for the annual World Wide Developers Conference 2023. They announced some truly groundbreaking new hardware I am looking forward to writing about, but before I do that in a future post, I want to focus on the Mac. Before Apple unveiled the VisionPro, they raced through an incredible number of updates for iOS, iPadOS, tvOS, and macOS — in fact, I think the updates to those platforms alone could have filled an entire keynote.
