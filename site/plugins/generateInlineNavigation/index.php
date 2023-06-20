@@ -34,7 +34,10 @@
 				$field = substr_replace($field, $match[2], $match[1], strlen($match[0]));
 			}
 			
+			// Pack the modified field and the navigation HTML into the return value
 			$returnPackage = [$field, $inlineNavigationHTML];
+			
+			// And return them
 			return $returnPackage;
 		}else{
 			return false;
