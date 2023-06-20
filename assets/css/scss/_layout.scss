@@ -65,6 +65,17 @@ nav {
   }
 }
 
+main {
+  figure, img, video {
+    border-radius: 2px;
+    overflow: hidden;
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .article-layout {
   margin: 23rem auto 5rem auto;
   border-radius: 1rem;
