@@ -24,55 +24,63 @@
 				<a href="<?= ($kirby->language() == "en") ? $page->url('de') : $page->url('en'); ?>"><?= $site->switchLanguage() ?></a>
 			</nav>
 		</header>
-		<main>
-			<article>
-				<div class="article-title">
-					<h1><?= $page->title() ?></h1>
-					<time datetime="<?= $page->date()->toDate('Y-MM-FF kk-mm-ss.SSSxxx') ?>">
-						<?php
-							echo(t('publishedDate') . ' ');
-							echo($page->date()->toDate(new IntlDateFormatter($kirby->language()->locale(LC_COLLATE), IntlDateFormatter::RELATIVE_LONG, IntlDateFormatter::SHORT, 'Europe/Berlin')));
-							echo(' ' . t('publishedBy'));
-							?> Wenzel Massag.
-					</time>
-				</div>
-				<div class="article-layout">
-					<div class="left">
-						<?php
-							$resultOfInlineNavigation = generateInlineNavigation($page->text());
-							if(gettype($resultOfInlineNavigation) == 'array'):
-						?>
-						<nav class="sidebar">
-							<?= $resultOfInlineNavigation[1] ?>
-						</nav>
-						<?php
-							endif;
-						?>
+		<div class="vertical-flex">
+			<main>
+				<article>
+					<div class="article-title">
+						<h1><?= $page->title() ?></h1>
+						<time datetime="<?= $page->date()->toDate('Y-MM-FF kk-mm-ss.SSSxxx') ?>">
+							<?php
+								echo(t('publishedDate') . ' ');
+								echo($page->date()->toDate(new IntlDateFormatter($kirby->language()->locale(LC_COLLATE), IntlDateFormatter::RELATIVE_LONG, IntlDateFormatter::SHORT, 'Europe/Berlin')));
+								echo(' ' . t('publishedBy'));
+								?> <nobr>Wenzel Massag.</nobr>
+						</time>
 					</div>
-					<div class="main">
-						<?= kt($resultOfInlineNavigation[0]) ?>
-						<hr />
-						<p>Permalinks: <a href="<?= $page->url('en') ?>" title="permalink">🇺🇸</a>, <a href="<?= $page->url('de') ?>" title="permalink">🇩🇪</a></p>
+					<div class="article-layout">
+						<div class="left">
+							<?php
+								$resultOfInlineNavigation = generateInlineNavigation($page->text());
+								if(gettype($resultOfInlineNavigation) == 'array'):
+							?>
+							<nav class="sidebar">
+								<?= $resultOfInlineNavigation[1] ?>
+							</nav>
+							<?php
+								endif;
+							?>
+						</div>
+						<div class="main">
+							<?php
+							if(gettype($resultOfInlineNavigation) == 'array'){
+								echo kt($resultOfInlineNavigation[0]);
+							}else{
+								echo $page->text()->kt();
+							}
+							?>
+							<hr />
+							<p>Permalinks: <a href="<?= $page->url('en') ?>" title="permalink">🇺🇸</a>, <a href="<?= $page->url('de') ?>" title="permalink">🇩🇪</a></p>
+						</div>
+						<div class="right"></div>
 					</div>
-					<div class="right"></div>
-				</div>
-			</article>
-		</main>
-		<footer>
-			<nav class="left-right-divide layout-row">
-				<?= $site->socials()->kt() ?>
-				<ul>
-					<li><?php
-						$legalDisclosure = $site->find('legal-disclosure');
-						echo(linkToPage($legalDisclosure));
-					?></li>
-					<li><?php
-							$privacy = $site->find('privacy');
-							echo(linkToPage($privacy));
+				</article>
+			</main>
+			<footer>
+				<nav class="left-right-divide layout-row">
+					<?= $site->socials()->kt() ?>
+					<ul>
+						<li><?php
+							$legalDisclosure = $site->find('legal-disclosure');
+							echo(linkToPage($legalDisclosure));
 						?></li>
-				</ul>
-			</nav>
-			<p class="legal"><?= $site->legal()->kirbytextinline() ?></p>
-		</footer>
+						<li><?php
+								$privacy = $site->find('privacy');
+								echo(linkToPage($privacy));
+							?></li>
+					</ul>
+				</nav>
+				<p class="legal"><?= $site->legal()->kirbytextinline() ?></p>
+			</footer>
+		</div>
 	</body>
 </html>
