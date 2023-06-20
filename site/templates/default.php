@@ -30,26 +30,27 @@
 					<h1><?= $page->title() ?></h1>
 					<time datetime="<?= $page->date()->toDate('Y-MM-FF kk-mm-ss.SSSxxx') ?>">
 						<?php
-							echo(t('pubdate') . ' ');
+							echo(t('publishedDate') . ' ');
 							echo($page->date()->toDate(new IntlDateFormatter($kirby->language()->locale(LC_COLLATE), IntlDateFormatter::RELATIVE_LONG, IntlDateFormatter::SHORT, 'Europe/Berlin')));
-							?> by Wenzel Massag.
+							echo(' ' . t('publishedBy'));
+							?> Wenzel Massag.
 					</time>
 				</div>
 				<div class="article-layout">
 					<div class="left">
+						<?php
+							$resultOfInlineNavigation = generateInlineNavigation($page->text());
+							if(gettype($resultOfInlineNavigation) == 'array'):
+						?>
 						<nav class="sidebar">
-							<ol>
-								<li><a href="#">Headlines H2</a></li>
-								<li><a href="#">And H3 will be listed and</a></li>
-								<li><a href="#">linked here</a></li>
-								<li><a href="#">By default text is dimmed.</a></li>
-								<li><a href="#">Hovers make it pop.</a></li>
-								<li><a href="#">This navigation is sticky</a></li>
-							</ol>
+							<?= $resultOfInlineNavigation[1] ?>
 						</nav>
+						<?php
+							endif;
+						?>
 					</div>
 					<div class="main">
-						<?= $page->text()->kt() ?>
+						<?= kt($resultOfInlineNavigation[0]) ?>
 					</div>
 					<div class="right"></div>
 				</div>
