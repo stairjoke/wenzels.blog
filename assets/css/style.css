@@ -113,6 +113,7 @@ code {
 
 header, .article-title {
   position: fixed;
+  z-index: 2;
   inset: 0 0 auto 0;
   padding: 2rem 1rem;
   background: var(--color-page);
@@ -185,7 +186,6 @@ main figure, main img, main video {
 .article-layout {
   margin: 23rem auto 5rem auto;
   border-radius: 1rem;
-  overflow: hidden;
   min-height: calc(100vh - 34rem);
   background: var(--color-main);
   box-shadow: 0 0 16rem var(--color-shadow);
@@ -202,8 +202,16 @@ main figure, main img, main video {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 25%;
-  background: var(--color-group);
+  border-radius: 1rem 0 0 1rem;
   padding: 1rem;
+}
+@media (max-width: 694px) {
+  .article-layout .left {
+    border-radius: 1rem 1rem 0 0;
+  }
+}
+.article-layout .left:has(.sidebar) {
+  background: var(--color-group);
 }
 .article-layout .main {
   flex-basis: 16cm;
@@ -222,7 +230,7 @@ main figure, main img, main video {
   flex-basis: 25%;
   padding: 1rem;
 }
-@media (max-width: 1023px) {
+@media (max-width: 960px) {
   .article-layout .right {
     display: none;
   }
@@ -232,7 +240,15 @@ main figure, main img, main video {
   color: var(--color-text-link-sidebar-navigation);
   --color-text-link: var(--color-text-link-sidebar-navigation);
   --color-text-link-hover: var(--color-text-link-sidebar-navigation-hover);
-  min-width: 9rem;
+  position: sticky;
+  z-index: 1;
+  top: 6.4rem;
+  min-width: 11rem;
+}
+@media (max-width: 694px) {
+  .sidebar {
+    position: static;
+  }
 }
 .sidebar ol, .sidebar ul {
   padding-left: 2em;
