@@ -29,6 +29,9 @@
 				<article>
 					<div class="article-title">
 						<h1><?= $page->title() ?></h1>
+						<?php
+							if(!$page->date()->isEmpty()) :
+						?>
 						<time datetime="<?= $page->date()->toDate('Y-MM-FF kk-mm-ss.SSSxxx') ?>">
 							<?php
 								echo(t('publishedDate') . ' ');
@@ -36,6 +39,9 @@
 								echo(' ' . t('publishedBy'));
 								?> <nobr>Wenzel Massag.</nobr>
 						</time>
+						<?php
+							endif;
+						?>
 					</div>
 					<div class="article-layout">
 						<div class="left">
