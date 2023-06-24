@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?= $kirby->language()->locale(LC_COLLATE) ?>">
 	<head>
 		<title></title>
 		<meta charset="UTF-8">
