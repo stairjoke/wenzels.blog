@@ -2,7 +2,7 @@ Title: WWDC'23 — macOS 14: Sonoma
 
 ----
 
-Date: 2023-6-6 20:45
+Date: 2023-6-6 20:45+2
 
 ----
 
