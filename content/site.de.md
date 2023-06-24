@@ -6,6 +6,10 @@ switchLanguage: 🌎 Read in English!
 
 ----
 
+description: Ein persönlicher Blog über Design, Technologie und Erfahrungen.
+
+----
+
 socials:
 
 - <nobr>(link: https://indieweb.social/@stairjoke text: Mastodon target: _blank)</nobr>

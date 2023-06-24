@@ -6,6 +6,10 @@ switchLanguage: 🇩🇪 Auf deutsch lesen!
 
 ----
 
+description: A personal blog about design, technology and experiences.
+
+----
+
 socials:
 
 - <nobr>(link: https://indieweb.social/@stairjoke text: Mastodon target: _blank)</nobr>
