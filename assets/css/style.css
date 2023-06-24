@@ -336,7 +336,7 @@ a, a:link, a:active, a:visited, a:hover, a:focus {
   color: var(--color-text-link);
   text-decoration: var(--link-decoration, underline);
 }
-a[target=_blank]::after, a[href^=http]::after, a:link[target=_blank]::after, a:link[href^=http]::after, a:active[target=_blank]::after, a:active[href^=http]::after, a:visited[target=_blank]::after, a:visited[href^=http]::after, a:hover[target=_blank]::after, a:hover[href^=http]::after, a:focus[target=_blank]::after, a:focus[href^=http]::after {
+a[target=_blank]::after, a:link[target=_blank]::after, a:active[target=_blank]::after, a:visited[target=_blank]::after, a:hover[target=_blank]::after, a:focus[target=_blank]::after {
   display: inline-block;
   content: " (ext)";
   color: transparent;
