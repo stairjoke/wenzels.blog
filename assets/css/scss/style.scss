@@ -11,7 +11,7 @@ a, a:link, a:active, a:visited, a:hover, a:focus {
   color: var(--color-text-link);
   text-decoration: var(--link-decoration, underline);
 
-  &[target="_blank"]::after, &[href^="http"]::after {
+  &[target="_blank"]::after {
     display: inline-block;
     content: " (ext)";
     color: transparent;
