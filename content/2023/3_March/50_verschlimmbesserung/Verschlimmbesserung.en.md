@@ -1,4 +1,4 @@
-Title: Ver&shy;schlimm&shy;besser&shy;ung
+Title: Ver&#173;schlimm&#173;besser&#173;ung
 
 ----
 
