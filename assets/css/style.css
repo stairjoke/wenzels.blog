@@ -281,6 +281,11 @@ main figure, main img, main video {
 @media (max-width: 694px) {
   .page-layout .left {
     border-radius: 1rem 1rem 0 0;
+    padding: 0;
+  }
+  .page-layout .left:has(.sidebar) {
+    background: var(--color-group);
+    padding: 1rem;
   }
 }
 .page-layout .left:has(.sidebar) {
