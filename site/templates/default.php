@@ -27,7 +27,7 @@
 		<div class="vertical-flex">
 			<main>
 				<article>
-					<div class="article-title">
+					<div class="page-title">
 						<h1><?= $page->title() ?></h1>
 						<?php
 							if(!$page->date()->isEmpty()) :
@@ -43,7 +43,7 @@
 							endif;
 						?>
 					</div>
-					<div class="article-layout">
+					<div class="page-layout">
 						<div class="left">
 							<?php
 								$resultOfInlineNavigation = generateInlineNavigation($page->text());
