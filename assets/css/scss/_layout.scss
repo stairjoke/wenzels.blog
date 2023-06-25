@@ -13,7 +13,7 @@ body {
   }
 }
 
-header, .article-title {
+header, .page-title {
   position: fixed;
   padding: 2rem 1rem;
   @media (max-width: 693px) {
@@ -51,7 +51,7 @@ footer {
   }
 }
 
-.article-title {
+.page-title {
   inset: 11.5rem 1rem auto 1rem;
   padding: 0;
   @media (max-width: 693px) {
@@ -124,7 +124,7 @@ main {
   }
 }
 
-.article-layout {
+.page-layout {
   margin: 23rem auto 5rem auto;
   @media (max-width: 693px) {
     margin: 2rem auto 2rem auto;
