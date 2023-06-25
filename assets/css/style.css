@@ -276,6 +276,7 @@ main figure, main img, main video {
   flex-shrink: 1;
   flex-basis: 25%;
   border-radius: 1rem 0 0 1rem;
+  padding: 1rem;
 }
 @media (max-width: 694px) {
   .page-layout .left {
@@ -283,7 +284,6 @@ main figure, main img, main video {
   }
 }
 .page-layout .left:has(.sidebar) {
-  padding: 1rem;
   background: var(--color-group);
 }
 .page-layout .main {
