@@ -2,7 +2,7 @@ Title: Wenzels Blog
 
 ----
 
-switchLanguage: 🌎 Read in English!
+switchLanguage: 🌎 Switch to English!
 
 ----
 

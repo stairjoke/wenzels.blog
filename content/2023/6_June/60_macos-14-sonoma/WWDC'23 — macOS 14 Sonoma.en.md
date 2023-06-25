@@ -63,3 +63,7 @@ Remember the <q>many of the features we talked about earlier, on iPadOS and iOS,
 
 - Autocorrect now uses a transformer to make a lot better predictions, sentence-level autocorrect. In plain English: Apple is now running a ChatGPT-like AI on your Mac (and iPhone and iPad) to provide significantly improved autocorrect functionality.
 - “Hey, Siri!” becomes just “Siri”. I wonder how well this will work. Will it lead to more accidental triggers? Will it cause more misses? A miss in this case is when you talk to a device that just isn’t responding to you.
+
+----
+
+Uuid: i9aOjSgQed9n0w2h
