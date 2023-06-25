@@ -69,3 +69,26 @@ code {
   margin: 0 .05rem;
   background: var(--color-code);
 }
+
+a.footnote-ref {
+  display: inline-block;
+  background: var(--color-code);
+  line-height: 1;
+  padding: 0 .27em .15em .3em;
+  border-radius: 100%;
+  border: solid 1px transparent;
+
+  &:hover {
+    border: solid 1px var(--color-text-dimmed);
+  }
+
+  font-family: "ibm-plex-mono", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: .8rem;
+
+  --color-text-link: var(--color-text-dimmed);
+  --color-text-link-hover: var(--color-text);
+  --link-decoration: none;
+  --link-decoration-hover: none;
+}
