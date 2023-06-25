@@ -10,7 +10,8 @@ return [
     'name' => 'German',
     'translations' => [
         'publishedDate' => 'Veröffentlicht am',
-        'publishedBy' => 'von'
+        'publishedBy' => 'von',
+        'permalinkInfo' => 'Diese Seite ist mehrsprachig. Permalinks werden automatisch zur passenden Übersetzung für den Besucher weitergeleitet.'
     ],
     'url' => NULL
 ];
