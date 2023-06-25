@@ -11,7 +11,7 @@ return [
     'translations' => [
         'publishedDate' => 'Veröffentlicht am',
         'publishedBy' => 'von',
-        'permalinkInfo' => 'Diese Seite ist mehrsprachig. Permalinks werden automatisch zur passenden Übersetzung für den Besucher weitergeleitet.'
+        'permalinkInfo' => 'Sollte sich die URL (Adresse) dieser Seite ändern, funktioniert der Permalink zu dieser Seite weiterhin. Permalinks leiten außerdem die Besucher automatisch zur passenden Übersetzung weiter.'
     ],
     'url' => NULL
 ];

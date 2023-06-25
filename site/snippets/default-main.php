@@ -26,8 +26,7 @@
 				echo $page->text()->kt();
 			}
 			?>
-			<hr />
-			<p class="permalink"><a href="<?= $page->permalink() ?>">Permalink</a></p>
+			<p class="permalink"><a href="<?= $page->permalink() ?>" title="<?= t('permalinkInfo') ?>">Permalink</a> <span class="infoTrigger">ℹ︎</span><span class="info"><?= t('permalinkInfo') ?></span></p>
 		</div>
 		<div class="right"></div>
 	</div>
