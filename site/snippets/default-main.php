@@ -15,6 +15,11 @@
 		</div>
 		<div class="main">
 			<?php
+			/*
+				- Add notice to untranslated posts, because Kirby always auto - serves the original language if not available. Create in duplicate .de.md file with original content.
+				- Homepage will show untranslated pages, so don’t translate titles of pages that don’t get a translation
+			*/
+			
 			if(gettype($resultOfInlineNavigation) == 'array'){
 				echo kt($resultOfInlineNavigation[0]);
 			}else{
@@ -22,7 +27,7 @@
 			}
 			?>
 			<hr />
-			<p>Permalinks: <a href="<?= $page->url('en') ?>" title="permalink">🇺🇸</a>, <a href="<?= $page->url('de') ?>" title="permalink">🇩🇪</a></p>
+			<p class="permalink"><a href="<?= $page->permalink() ?>">Permalink</a></p>
 		</div>
 		<div class="right"></div>
 	</div>
