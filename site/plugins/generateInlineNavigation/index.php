@@ -16,7 +16,11 @@
 				$headline = explode(' ', $matches[$index][0], 2);
 				
 				// Generate the ID, detect the level of heading, generate HTML
-				$id = crc32($headline[1]); //crc32 is the computationally cheapest hash possible in PHP
+				
+				//$id = crc32($headline[1]); //crc32 is the computationally cheapest hash possible in PHP. Result is not readable.
+				
+				$id = createSlug($headline[1]); // Creates readable URL-slugs, requires plugin, use alternative above without plugin.
+				
 				$level = strlen($headline[0]);
 				$html = "<h{$level} id='{$id}'>{$headline[1]}</h{$level}>";
 				
