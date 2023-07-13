@@ -1,6 +1,6 @@
 <article>
 	<?= snippet('default-page-title') ?>
-	<div class="page-layout">
+	<div class="page-layout default">
 		<div class="left">
 			<?php
 				$resultOfInlineNavigation = generateInlineNavigation($page->text());

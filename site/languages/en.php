@@ -11,7 +11,7 @@ return [
     'translations' => [
         'publishedDate' => 'Published on',
         'publishedBy' => 'by',
-        'permalinkInfo' => 'In case the URL (address) of this page changes, the permalink to this page will continue to function. Permalinks will also redirect visitors to the appropriate translation automatically.'
+        'permalinkInfo' => 'In case the URL (address) of this page changes, the permalink to this page will continue to function. Permalinks will also redirect visitors to the appropriate translation automatically, if it is available.'
     ],
     'url' => NULL
 ];
