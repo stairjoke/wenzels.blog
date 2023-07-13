@@ -1,3 +1,3 @@
 <?= snippet('header') ?>
-<?= snippet('default-home') ?>
+<?= snippet('home-main') ?>
 <?= snippet('footer') ?>

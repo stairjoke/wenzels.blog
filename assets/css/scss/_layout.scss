@@ -134,70 +134,77 @@ main {
   box-shadow: 0 0 16rem var(--color-shadow);
   max-width: 1264px;
 
-  display: flex;
-  @media (max-width: 694px){
-    display: block;
-  }
-  justify-items: stretch;
-
-  .left {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 25%;
-    border-radius: var(--outer-radius) 0 0 var(--outer-radius);
+  &.default {
+    display: flex;
     @media (max-width: 694px){
-      border-radius: var(--outer-radius) var(--outer-radius) 0 0;
-      padding: 0;
+      display: block;
+    }
+    justify-items: stretch;
+
+    .left {
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 25%;
+      border-radius: var(--outer-radius) 0 0 var(--outer-radius);
+      @media (max-width: 694px){
+        border-radius: var(--outer-radius) var(--outer-radius) 0 0;
+        padding: 0;
+        &:has(.sidebar) {
+          background: var(--color-group);
+          padding: 1rem;
+        }
+      }
+
+      padding: 1rem;
+
       &:has(.sidebar) {
         background: var(--color-group);
-        padding: 1rem;
       }
     }
 
-    padding: 1rem;
+    .main {
+      flex-basis: 16cm;
+      flex-grow: 0;
+      flex-shrink: 1;
 
-    &:has(.sidebar) {
-      background: var(--color-group);
+      @media (min-width: 1024px) {
+        flex-shrink: 0;
+      }
+
+      padding: 1rem;
+
+      .footnotes {
+        hr {
+          display: none;
+        }
+
+        &::before {
+          display: block;
+          content: "";
+          width: 38.2%;
+          height: 1px;
+          background: var(--color-text-dimmed);
+        }
+      }
     }
-  }
 
-  .main {
-    flex-basis: 16cm;
-    flex-grow: 0;
-    flex-shrink: 1;
+    .right {
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 25%;
 
-    @media (min-width: 1024px) {
-      flex-shrink: 0;
-    }
+      padding: 1rem;
 
-    padding: 1rem;
-
-    .footnotes {
-      hr {
+      @media (max-width: 960px){
         display: none;
       }
-
-      &::before {
-        display: block;
-        content: "";
-        width: 38.2%;
-        height: 1px;
-        background: var(--color-text-dimmed);
-      }
     }
   }
 
-  .right {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 25%;
+  &.home {
 
-    padding: 1rem;
-
-    @media (max-width: 960px){
-      display: none;
-    }
   }
+
 }
 
 .sidebar {
