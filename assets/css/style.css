@@ -260,7 +260,7 @@ footer p {
   color: var(--color-text-legal);
 }
 
-nav {
+header nav, footer nav {
   --color-text-link: var(--color-text-link-navigation);
   --color-text-link-hover: var(--color-text-link-navigation);
   --link-decoration: none;
