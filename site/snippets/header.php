@@ -5,7 +5,10 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://use.typekit.net/pqb7qdl.css">
-		<?= css('assets/css/style.css') ?>
+		<?= css([
+			'assets/css/style.css',
+			'@auto'
+		]) ?>
 		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#003D2A">
 		<meta name="theme-color" content="#138444">
 	</head>
