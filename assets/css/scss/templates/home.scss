@@ -1,5 +1,10 @@
 // Styles for home.php template file
 
 .page-layout.home {
+  padding: 1rem;
 
+  article {
+    --color-text-link: var(--color-text);
+    --link-decoration: none;
+  }
 }
