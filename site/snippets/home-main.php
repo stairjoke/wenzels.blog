@@ -7,7 +7,10 @@
 		foreach($articles as $article) :
 	?>
 		<article>
-			<?= $article->title() ?>
+			<a href="<?= $article->url() ?>">
+				<h2><?= $article->title() ?></h2>
+				<?= renderPubdate($article, $kirby) ?>
+			</a>
 		</article>
 	<?php endforeach; ?>
 	
