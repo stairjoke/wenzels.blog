@@ -1,3 +1,9 @@
-
+.page-layout.home {
+  padding: 1rem;
+}
+.page-layout.home article {
+  --color-text-link: var(--color-text);
+  --link-decoration: none;
+}
 
 /*# sourceMappingURL=home.css.map */
