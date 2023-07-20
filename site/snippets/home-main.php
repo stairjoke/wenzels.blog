@@ -20,8 +20,9 @@
 		<?php if($articles->pagination()->hasNextPage()) : ?>
 		<a href="<?= $articles->pagination()->nextPageURL() ?>"><?= t('paginationPreviousLink') ?></a>
 		<?php endif; ?>
-		&nbsp;|&nbsp;<!-- add link to calendar-view here -->
+		
 		<?php if($articles->pagination()->hasPrevPage()) : ?>
+			&nbsp;|&nbsp;<!-- add link to calendar-view here -->
 		<a href="<?= $articles->pagination()->prevPageURL() ?>">
 			<?= t('paginationNextLink') ?>
 		</a>
