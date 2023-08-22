@@ -2,14 +2,14 @@
 <div class="page-layout home">
 	<?php
 		// Get all blogposts
-		$articles = $kirby->collection("blogposts")->paginate(10);
+		$articles = $kirby->collection("blogposts")->paginate(8); //has to be an even number divisible by 4 — the CSS layout depends on it.
 		
 		foreach($articles as $article) :
 	?>
 		<article>
 			<a href="<?= $article->url() ?>">
 				<h2><?= $article->title() ?></h2>
-				<?= renderPubdate($article, $kirby) ?>
+				<time datetime="<?= $page->date()->toDate('Y-MM-FF kk-mm-ss.SSSxxx') ?>"><?= renderPubdate($article, $kirby) ?></time>
 			</a>
 		</article>
 	<?php endforeach; ?>
