@@ -1,9 +1,52 @@
 .page-layout.home {
   padding: 1rem;
 }
+@media (min-width: 694px) {
+  .page-layout.home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: stretch;
+  }
+}
 .page-layout.home article {
   --color-text-link: var(--color-text);
   --link-decoration: none;
+  flex-basis: calc(50% - 1rem);
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+@media (max-width: 693px) {
+  .page-layout.home article {
+    margin: 1rem 0;
+  }
+}
+@media (min-width: 1024px) {
+  .page-layout.home article {
+    flex-basis: calc(25% - 4rem);
+  }
+}
+.page-layout.home article a h2 {
+  margin: 0;
+}
+.page-layout.home article a time {
+  margin-top: 0.5rem;
+}
+@media (min-width: 694px) {
+  .page-layout.home article a {
+    display: block;
+    aspect-ratio: 16/9;
+    background-color: var(--color-group);
+    padding: 1rem;
+    position: relative;
+  }
+  .page-layout.home article a time {
+    position: absolute;
+    bottom: 1rem;
+  }
+}
+.page-layout.home .pagination {
+  flex-basis: 100%;
 }
 
 /*# sourceMappingURL=home.css.map */
