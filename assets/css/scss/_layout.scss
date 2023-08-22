@@ -105,7 +105,6 @@ header nav, footer nav {
 .left-right-divide {
   display: flex;
   gap: 1rem;
-  flex-wrap: wrap;
 
   & > *:last-child {
     flex-shrink: 0;
