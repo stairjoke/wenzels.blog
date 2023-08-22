@@ -3,8 +3,52 @@
 .page-layout.home {
   padding: 1rem;
 
+  @media (min-width: 694px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: stretch;
+  }
+
   article {
     --color-text-link: var(--color-text);
     --link-decoration: none;
+
+    flex-basis: calc(50% - 1rem);
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    @media (max-width: 693px) {
+      margin: 1rem 0;
+    }
+
+    @media (min-width: 1024px) {
+      flex-basis: calc(25% - 4rem);
+    }
+
+    a {
+      h2 {
+        margin: 0;
+      }
+      time {
+        margin-top: .5rem;
+      }
+
+      @media (min-width: 694px){
+        display: block;
+        aspect-ratio: 16/9;
+        background-color: var(--color-group);
+        padding: 1rem;
+        position: relative;
+
+        time {
+          position: absolute;
+          bottom: 1rem;
+        }
+      }
+    }
+  }
+  .pagination {
+    flex-basis: 100%;
   }
 }
