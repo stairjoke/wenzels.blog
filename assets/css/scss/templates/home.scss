@@ -12,7 +12,9 @@
 
   article {
     --color-text-link: var(--color-text);
+    --color-text-link-hover: var(--color-text);
     --link-decoration: none;
+    --link-decoration-hover: none;
 
     flex-basis: calc(50% - 1rem);
     flex-grow: 1;
@@ -26,7 +28,22 @@
       flex-basis: calc(25% - 4rem);
     }
 
+    &:first-child {
+      flex-basis: 100%;
+      a {
+        background: var(--gradient-block);
+
+        &:hover {
+          background: var(--gradient-block-hover);
+        }
+      }
+    }
+
     a {
+      border-radius: var(--inner-radius);
+      transition-timing-function: ease-in-out;
+      transition-duration: 320ms;
+
       h2 {
         margin: 0;
       }
@@ -36,19 +53,29 @@
 
       @media (min-width: 694px){
         display: block;
-        aspect-ratio: 16/9;
         background-color: var(--color-group);
+        &:hover {
+          background-color: var(--color-group-hover);
+        }
         padding: 1rem;
         position: relative;
+        min-height: 8rem;
 
         time {
           position: absolute;
           bottom: 1rem;
         }
       }
+
+      &:hover, &:focus {
+        transition-timing-function: ease-out;
+        transition-duration: 80ms;
+        box-shadow: 0 0 1rem var(--color-shadow);
+      }
     }
   }
   .pagination {
     flex-basis: 100%;
+    text-align: center;
   }
 }
