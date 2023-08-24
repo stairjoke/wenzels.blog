@@ -12,9 +12,11 @@
 
   article {
     --color-text-link: var(--color-text);
-    --color-text-link-hover: var(--color-text);
     --link-decoration: none;
-    --link-decoration-hover: none;
+    @media (min-width: 693px) {
+      --color-text-link-hover: var(--color-text);
+      --link-decoration-hover: none;
+    }
 
     flex-basis: calc(50% - 1rem);
     flex-grow: 1;
@@ -30,11 +32,13 @@
 
     &:first-child {
       flex-basis: 100%;
-      a {
-        background: var(--gradient-block);
+      @media (min-width: 694px) {
+        a {
+          background: var(--gradient-block);
 
-        &:hover {
-          background: var(--gradient-block-hover);
+          &:hover {
+            background: var(--gradient-block-hover);
+          }
         }
       }
     }
