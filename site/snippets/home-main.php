@@ -1,8 +1,8 @@
-<?= snippet('default-page-title') ?>
+<?= snippet('home-page-title') ?>
 <div class="page-layout home">
 	<?php
 		// Get all blogposts
-		$articles = $kirby->collection("blogposts")->paginate(8); //has to be an even number divisible by 4 — the CSS layout depends on it.
+		$articles = $kirby->collection("blogposts")->paginate(9);
 		
 		foreach($articles as $article) :
 	?>
