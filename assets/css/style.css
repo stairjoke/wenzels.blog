@@ -4,9 +4,12 @@
   --color-page: #138444;
   --color-page-glass: rgba(19, 132, 68, 0.9);
   --color-group: #E5E5E5;
+  --color-group-hover: #e0e0e0;
   --color-group-inline: rgba(0, 0, 0, 0.065);
   --color-codeblock: #E5E5E5;
   --color-code: var(--color-group-inline);
+  --gradient-block: linear-gradient(to right top, #f6d6d4, #f5e9d2);
+  --gradient-block-hover: linear-gradient(to right top, #fdbdb9, #fbe3b5);
   --color-main: #F0F0F0;
   --color-shadow: rgba(0,0,0,0.06);
   --color-text: #292929;
@@ -34,8 +37,12 @@
     --color-page: #003D2A;
     --color-page-glass: rgba(0, 61, 42, 0.9);
     --color-group: #101916;
+    --color-group-hover: #141e19;
     --color-group-inline: rgba(255, 255, 255, 0.065);
     --color-codeblock: #232323;
+    --color-code: var(--color-group-inline);
+    --gradient-block: linear-gradient(to right top, #260a02, #271801);
+    --gradient-block-hover: linear-gradient(to right top, #320a00, #321e00);
     --color-main: #0D0D0D;
     --color-shadow: rgba(255,255,255,.06);
     --color-text: #CCCCCC;
@@ -56,6 +63,7 @@
     --color-page: color(display-p3 0.026 0.234 0.14);
     --color-text-link: color(display-p3 0 0.64 0.309);
     --color-text-link-hover: color(display-p3 0 0.64 0.309);
+    --gradient-block-hover: linear-gradient(to right top, color(display-p3 0.188 0.047 0), color(display-p3 0.204 0.126 0));
   }
 }
 h1 {
