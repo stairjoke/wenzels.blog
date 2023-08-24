@@ -2,7 +2,7 @@ Title: Wenzel’s Blog
 
 ----
 
-switchLanguage: 🇩🇪 Auf deutsch lesen
+switchLanguage: 🇩🇪 Auf Deutsch lesen
 
 ----
 
