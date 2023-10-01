@@ -6,17 +6,15 @@ Date: 2023-5-11 20:56
 
 ----
 
-OGImage: OGImage.jpg
+Ogimage: OGImage.jpg
 
 ----
 
-OGImageALT: The image shows the blog post title.
+Ogimagealt: The image shows the blog post title.
 
 ----
 
-Teaser:
-
-Recently I realized that I’d not been active much on social media for a while, and to my surprise I didn’t miss it. When Musk began to ruin Twitter in earnest I decided to move to Mastodon. In the beginning I missed the lively discussions, the interactions, and the inspirations the larger social bubble afforded on Twitter. Mastodon just wasn’t the same. But so was Twitter, it no longer was the Twitter I liked. Back then I wrote:
+Teaser: Recently I realized that I’d not been active much on social media for a while, and to my surprise I didn’t miss it. When Musk began to ruin Twitter in earnest I decided to move to Mastodon. In the beginning I missed the lively discussions, the interactions, and the inspirations the larger social bubble afforded on Twitter. Mastodon just wasn’t the same. But so was Twitter, it no longer was the Twitter I liked. Back then I wrote:
 
 ----
 
@@ -47,3 +45,7 @@ I could go on endlessly here, but I think the main point I want to make to end t
 [^bluesky]: BlueSky is normally not spelled with an uppercase "S", but there is a problem with that name for people relying on screen-readers. Computers pronounce "Bluesky" as "blueskii"; however, when you "camel-case" the name by writing the "S" in uppercase, it is typically pronounced correctly ("blue sky") by screen readers. I encourage everyone to spell it "BlueSky" (with an uppercase "S"), and just like the users of Twitter invented the @mention (at-mention) and the #tag (hashtag), we might raise some awareness to spell things in a screen-reader friendly way.
 
 [^lastPost]: <cite>(link: /blog/2023/April/Bluesky-Mastodon-Twitter text: Bluesky might just win and replace Mastodon and Twitter)</cite> published April 25, 2023 by Wenzel Massag on beachball.tech.
+
+----
+
+Uuid: lLFkNlAbZ6IitP83
