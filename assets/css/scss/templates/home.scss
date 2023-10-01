@@ -30,7 +30,7 @@
       flex-basis: calc(25% - 4rem);
     }
 
-    &:first-child {
+    &.most-recent {
       flex-basis: 100%;
       @media (min-width: 694px) {
         a {

@@ -32,14 +32,14 @@
     flex-basis: calc(25% - 4rem);
   }
 }
-.page-layout.home article:first-child {
+.page-layout.home article.most-recent {
   flex-basis: 100%;
 }
 @media (min-width: 694px) {
-  .page-layout.home article:first-child a {
+  .page-layout.home article.most-recent a {
     background: var(--gradient-block);
   }
-  .page-layout.home article:first-child a:hover {
+  .page-layout.home article.most-recent a:hover {
     background: var(--gradient-block-hover);
   }
 }
