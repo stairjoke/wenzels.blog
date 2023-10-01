@@ -22,7 +22,6 @@
 							echo(linkToPage($linkedPage));
 						}
 					?>
-					<li><nobr><a href="#" target="_blank">Portfolio</a></nobr></li>
 				</ol>
 				<a href="<?= ($kirby->language() == "en") ? $page->url('de') : $page->url('en'); ?>"><?= $site->switchLanguage() ?></a>
 			</nav>
