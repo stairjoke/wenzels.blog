@@ -2,23 +2,21 @@ Title: About
 
 ----
 
+TitleLong: About this blog
+
+----
+
 Text:
-## Hello 👋
-I’m Wenzel, a freelance UX & UI designer, technology enthusiast, and digital nomad. I write this blog about design, technology, and sometimes other things. The name of this blog is an allusion to the spinning disk cursor Apple computers display when an application becomes unresponsive—also known as the beachball, the spinning wheel of death, or the rainbow of doom.
 
-Computers are why I studied design, and humans are why I work as a designer. I’ve been fascinated by technology ever since I wrote my first line of BASIC code on my dad’s Atari Mega STE when I was eight. Eventually, and after much tinkering, I decided that this was what I wanted to do for a living, studied design, and taught myself to code.
+## Who does he think he is?
+In Germany, blogging is sometimes considered self-obsessed or even narcissistic. This sentiment bugs me enough to provoke me into explaining myself:
 
-These days I spend my time figuring out how a person using a digital device can accomplish a set goal easily and without instructions.
+For my German readers, I'll answer the question “Who does he think he is?” right here: I write because I enjoy it. If it was important to me to reach many readers, I would go into the media. This web-log (blog) is a collection of thoughts, opinions, experiences and more. I like the very extroverted American idea of the personally run, but not personal blog.
 
-### Other places you can find me
-I use (link: https://indieweb.social/@stairjoke text: Mastodon (@stairjoke@indieweb.social), target: _blank) and to prevent impersonation, I have an account on Twitter that I don’t use anymore (@stairjoke). I also have a (link: https://wenzels.design text: portfolio website target: _blank) that is incomplete and needs to be translated to English. I promise I will take care of it as soon as I find the time to do it.
+## What you can expect here
+I was born in 1991 and grew up at/in (link: https://en.wikipedia.org/wiki/Lake_Constance text: Lake-Constance target: _blank). I've been a hobby photographer since I was big enough to hold a camera, a tech nerd since I was big enough to climb on an office chair, a web designer since I was 16, and a electric car enthusiast since 2018. In January 2021, I graduated as Media Mesigner (B. Sc.), then worked for one year at (link: https://www.sketch.com text: Sketch B.V. target: _blank) in the Netherlands, and since November 2022 I'm back in Germany working as a (link: https://wenzels.design text: self-employed designer. target: _blank).
 
-## Feedback
-### Questions, comments, thoughts?
-Send an email admin@beachball.tech or mention me on (link: https://indieweb.social/@stairjoke text: Mastodon. target: _blank)
-
-### Technical issue, feature request?
-This blog is open source and built utilizing the (link: https://getkirby.com text: Kirby CMS target: _blank). If you have a GitHub account, you're invited to open an issue—please search existing issues first to avoid duplicates. Only if you can't find an existing on for your topic, create a new one: (link: https://github.com/stairjoke/beachball.tech/issues text: Beachball.tech issues on Github. target: _blank) Don't have an account? You can email me or get in touch on Mastodon (see above).
+I publish on this blog when the maximum 500 characters allowed on Mastodon are too limiting for something I want to say. This usually happens when something is important to me and I have decided to use this limit as a quality-threshold for this blog. You can get unfiltered insight on Mastodon: (link: https://indieweb.social/@stairjoke text: @stairjoke@indieweb.social target: _blank). If you prefer to only see blog posts, subscribe to the (link: /feed text: RSS feed!)
 
 ----
 
