@@ -1,10 +1,10 @@
-Title: 404 — Not found
+Title: 404 — Nicht gefunden
 
 ----
 
 Text:
 
-Sorry! The page you’re trying to access does not exist.
+Entschuldigung, die aufgerufene Seite existiert nicht.
 
 (image: 404PaulaSchmidt.jpg caption: Photo by Paula Schmidt)
 

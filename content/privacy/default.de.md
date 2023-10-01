@@ -6,9 +6,9 @@ Text:
 
 - Ich verwende keine Cookies und kaufe oder verkaufe keine Informationen über Sie.
 - Diese Website wird auf Servern gehostet, die von (link: https://www.hosteurope.de text: HostEurope GmbH target: _blank) verwaltet werden, und die Server-Logs speichern nur anonymisierte Daten.
-- Ich bette keine Inhalte Dritter ein und alle Links zu externen Websites sind markiert: <span class="external">Biespiel Link.</span>
+- Ich bette keine Inhalte Dritter ein und alle Links zu externen Websites sind markiert: (link: # text: Biespiel Link. target: _blank)
 - Ich verwende keine Analytics von Dritten (kein Google Analytics, kein HotJar usw.).
-- Ich nutze Mastodon, einen dezentralen Micro-Blogging Dienst der mithilfe von AvtivityPub an das sogenannte Fediverse angeschlossen ist. Mein Benutzeraccount wird von Indieweb.social verwaltet und betrieben und is nicht Teil dieser Webseite (wenzels.blog). Die Server sind nach Angaben des Betreibers DSGVO konform und stehen innerhalb der EU und. Siehe (link: https://indieweb.social/privacy-policy text: Datenschutzerklärung von indieweb.social target: _blank) und Punkt 5 (unten).
+- Ich benutze Mastodon, einen dezentralen Microblogging-Dienst eines Drittanbieters. Mein Benutzerkonto (link: https://indieweb.social/@stairjoke text: @stairjoke@indieweb.social target: _blank) wird von Indieweb.social verwaltet und betrieben und ist nicht Teil dieser Website (wenzels.blog).
 
 # Datenschutzerklärung
 
@@ -122,4 +122,4 @@ Die von Ihnen an uns per Kontaktanfragen &uuml;bersandten Daten verbleiben bei u
 
 ## 5. Externe Dienste
 ### Mastodon-Profil
-Wenzel Massag nutzt den Microblogging-Dienst Mastodon der mithilfe von (link: https://de.wikipedia.org/wiki/ActivityPub text: AvtivityPub \(link zeigt auf wikipedia.org\) target: _blank) an das (link: https://de.wikipedia.org/wiki/Fediverse text: Fediverse \(link zeigt auf wikipedia.org\) target: _blank) angeschlossen ist. Der Benutzeraccount "@stairjoke@indieweb.social" von Wenzel Massag wird von Indieweb.social verwaltet und betrieben. Die Inhalte des Fediverse und alle damit verbundenen Server, inklusive indieweb.social, sind nicht Teil dieser Webseite (wenzels.blog). Siehe auch (link: https://indieweb.social/privacy-policy text: Datenschutzerklärung von indieweb.social target: _blank).
+Wenzel Massag nutzt den Microblogging-Dienst Mastodon der mithilfe von (link: https://de.wikipedia.org/wiki/ActivityPub text: AvtivityPub \(link zeigt auf wikipedia.org\) target: _blank) an das (link: https://de.wikipedia.org/wiki/Fediverse text: Fediverse \(link zeigt auf wikipedia.org\) target: _blank) angeschlossen ist. Der Benutzeraccount (link: https://indieweb.social/@stairjoke text: @stairjoke@indieweb.social target: _blank) von Wenzel Massag wird von Indieweb.social verwaltet und betrieben. Die Inhalte des Fediverse und alle damit verbundenen Server, inklusive indieweb.social, sind nicht Teil dieser Webseite (wenzels.blog). Siehe auch (link: https://indieweb.social/privacy-policy text: Datenschutzerklärung von indieweb.social target: _blank).
