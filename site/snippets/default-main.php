@@ -21,7 +21,14 @@
 				echo $page->text()->kt();
 			}
 			?>
-			<p class="permalink"><a href="<?= $page->permalink() ?>" title="<?= t('permalinkInfo') ?>">Permalink</a> <span class="infoTrigger">ℹ︎</span><span class="info"><?= t('permalinkInfo') ?></span></p>
+			<div class="permalink">
+				<div class="permalinkLayout">
+					<a href="<?= $page->permalink() ?>" title="<?= t('permalinkInfo') ?>">Permalink:</a>
+						<input type="text" value="<?= $page->permalink() ?>" />
+						<button class="permalinkInfoTrigger">ℹ︎</button>
+				</div>
+				<p class="permalinkInfo"><?= t('permalinkInfo') ?></p>
+			</div>
 		</div>
 		<div class="right"></div>
 	</div>
