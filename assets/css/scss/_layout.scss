@@ -185,6 +185,79 @@ main {
           background: var(--color-text-dimmed);
         }
       }
+
+      .permalink {
+        background: var(--color-group-inline);
+        padding: .5em;
+        margin-top: 2rem;
+        border-radius: var(--inner-radius);
+
+        .permalinkLayout {
+          width: 100%;
+          display: flex;
+          align-items: stretch;
+          gap: .25em;
+
+          a, button {
+            flex-grow: 0;
+          }
+
+          input {
+            flex-grow: 1;
+            background: var(--color-main);
+            border-radius: var(--inner-radius);
+            border: solid 1px var(--color-shadow);
+            padding-left: .5em;
+            padding-right: .5em;
+            color: var(--color-text-code);
+          }
+
+          button {
+            margin-right: 0;
+          }
+        }
+
+        .permalinkInfoTrigger {
+          background: var(--color-code);
+          border-radius: 100%;
+          border: solid 1px transparent;
+          display: inline-block;
+          padding: 0;
+          width: 1.4rem;
+          height: 1.4rem;
+
+          font-size: 1rem;
+          line-height: 1;
+          text-align: center;
+
+          color: var(--color-text);
+
+          &:hover {
+            border: solid 1px var(--color-text-dimmed);
+          }
+        }
+
+        @media (pointer: fine) {
+          &:has(.permalinkInfoTrigger) {
+            p {
+              margin-block-end: 0;
+            }
+            .permalinkInfo {
+              display: none;
+            }
+          }
+
+          &:has(.permalinkInfoTrigger:hover) {
+            p {
+              margin-block-end: unset;
+            }
+            .permalinkInfo {
+              display: block;
+            }
+          }
+        }
+
+      }
     }
 
     .right {
@@ -198,10 +271,6 @@ main {
         display: none;
       }
     }
-  }
-
-  &.home {
-
   }
 
 }
