@@ -11,7 +11,7 @@ In accordance with German and EU law, the following information is provided. Ger
 - This website is hosted on servers managed by (link: https://www.hosteurope.de text: HostEurope GmbH target: _blank) and server logs store only anonymized data.
 - I do not embed any third-party content and all links to external websites are marked with an icon: <span class="external">Example.</span>
 - I do not use any third-party analytics (no Google Analytics, no HotJar etc.).
-- I use Mastodon, a decentralized micro-blogging service built on AvtivityPub to connect to the Fediverse. My user account is managed and run by Indieweb.social and not pat of this website (beachball.tech). According to Indieweb.social their servers are GDPR compliant and located inside the EU. See (link: https://indieweb.social/privacy-policy text: indieweb.social's privacy statement target: _blank) and section 5 (below) for more information.
+- I use Mastodon, a decentralized micro-blogging service built on AvtivityPub to connect to the Fediverse. My user account is managed and run by Indieweb.social and not pat of this website (wenzels.blog). According to Indieweb.social their servers are GDPR compliant and located inside the EU. See (link: https://indieweb.social/privacy-policy text: indieweb.social's privacy statement target: _blank) and section 5 (below) for more information.
 
 ## 1. An overview of data protection
 ### General information
@@ -63,13 +63,13 @@ We herewith advise you that the transmission of data via the Internet (i.e., thr
 ### Information about the responsible party (referred to as the &ldquo;controller&rdquo; in the GDPR)
 The data processing controller on this website is:
 
-W. Massag
-Selmnau 19
-88142 Wasserburg
-Deutschland
+Wenzel Massag
+Imhofstraße 17
+73525 Schwäbisch Gmünd
+Germany
 
 Phone: +49 174 894 0 954
-E-mail: admin@beachball.tech
+E-mail: wenzel@wenzels.blog
 
 The controller is the natural person or legal entity that single-handedly or jointly with others makes decisions as to the purposes of and resources for the processing of personal data (e.g., names, e-mail addresses, etc.).
 
@@ -125,7 +125,7 @@ The data sent by you to us via contact requests remain with us until you request
 
 ## 5. Third Party Services
 ### Mastodon-Profil
-Wenzel Massag uses the micro-blogging service Mastodon which is connected to the (link: https://en.wikipedia.org/wiki/Fediverse text: Fediverse \(link opens wikipedia.org\) target: _blank) using (link: https://en.wikipedia.org/wiki/ActivityPub text: AvtivityPub \(link opens wikipedia.org\) target: _blank). Wenzel's user account "@stairjoke@indieweb.social" is managed and run by Indieweb.social. The content of the Fediverse and all connected servers, including indieweb.social, are not part of this website (beachball.tech). See (link: https://indieweb.social/privacy-policy text: indieweb.social's privacy statement target: _blank) for more information.
+Wenzel Massag uses the micro-blogging service Mastodon which is connected to the (link: https://en.wikipedia.org/wiki/Fediverse text: Fediverse \(link opens wikipedia.org\) target: _blank) using (link: https://en.wikipedia.org/wiki/ActivityPub text: AvtivityPub \(link opens wikipedia.org\) target: _blank). Wenzel's user account "@stairjoke@indieweb.social" is managed and run by Indieweb.social. The content of the Fediverse and all connected servers, including indieweb.social, are not part of this website (wenzels.blog). See (link: https://indieweb.social/privacy-policy text: indieweb.social's privacy statement target: _blank) for more information.
 
 ----
 

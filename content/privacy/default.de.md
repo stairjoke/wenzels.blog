@@ -8,7 +8,7 @@ Text:
 - Diese Website wird auf Servern gehostet, die von (link: https://www.hosteurope.de text: HostEurope GmbH target: _blank) verwaltet werden, und die Server-Logs speichern nur anonymisierte Daten.
 - Ich bette keine Inhalte Dritter ein und alle Links zu externen Websites sind markiert: <span class="external">Biespiel Link.</span>
 - Ich verwende keine Analytics von Dritten (kein Google Analytics, kein HotJar usw.).
-- Ich nutze Mastodon, einen dezentralen Micro-Blogging Dienst der mithilfe von AvtivityPub an das sogenannte Fediverse angeschlossen ist. Mein Benutzeraccount wird von Indieweb.social verwaltet und betrieben und is nicht Teil dieser Webseite (beachball.tech). Die Server sind nach Angaben des Betreibers DSGVO konform und stehen innerhalb der EU und. Siehe (link: https://indieweb.social/privacy-policy text: Datenschutzerklärung von indieweb.social target: _blank) und Punkt 5 (unten).
+- Ich nutze Mastodon, einen dezentralen Micro-Blogging Dienst der mithilfe von AvtivityPub an das sogenannte Fediverse angeschlossen ist. Mein Benutzeraccount wird von Indieweb.social verwaltet und betrieben und is nicht Teil dieser Webseite (wenzels.blog). Die Server sind nach Angaben des Betreibers DSGVO konform und stehen innerhalb der EU und. Siehe (link: https://indieweb.social/privacy-policy text: Datenschutzerklärung von indieweb.social target: _blank) und Punkt 5 (unten).
 
 # Datenschutzerklärung
 
@@ -62,13 +62,14 @@ Wir weisen darauf hin, dass die Daten&uuml;bertragung im Internet (z.&nbsp;B. be
 
 ### Hinweis zur verantwortlichen Stelle
 Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:
-W. Massag
-Selmnau 19
-88142 Wasserburg
+
+Wenzel Massag
+Imhofstraße 17
+73525 Schwäbisch Gmünd
 Deutschland
 
 Telefon: +49 174 894 0 954
-E-Mail: admin@beachball.tech
+E-Mail: wenzel@wenzels.blog
 
 Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-Adressen o. &Auml;.) entscheidet.
 
@@ -121,4 +122,4 @@ Die von Ihnen an uns per Kontaktanfragen &uuml;bersandten Daten verbleiben bei u
 
 ## 5. Externe Dienste
 ### Mastodon-Profil
-Wenzel Massag nutzt den Microblogging-Dienst Mastodon der mithilfe von (link: https://de.wikipedia.org/wiki/ActivityPub text: AvtivityPub \(link zeigt auf wikipedia.org\) target: _blank) an das (link: https://de.wikipedia.org/wiki/Fediverse text: Fediverse \(link zeigt auf wikipedia.org\) target: _blank) angeschlossen ist. Der Benutzeraccount "@stairjoke@indieweb.social" von Wenzel Massag wird von Indieweb.social verwaltet und betrieben. Die Inhalte des Fediverse und alle damit verbundenen Server, inklusive indieweb.social, sind nicht Teil dieser Webseite (beachball.tech). Siehe auch (link: https://indieweb.social/privacy-policy text: Datenschutzerklärung von indieweb.social target: _blank).
+Wenzel Massag nutzt den Microblogging-Dienst Mastodon der mithilfe von (link: https://de.wikipedia.org/wiki/ActivityPub text: AvtivityPub \(link zeigt auf wikipedia.org\) target: _blank) an das (link: https://de.wikipedia.org/wiki/Fediverse text: Fediverse \(link zeigt auf wikipedia.org\) target: _blank) angeschlossen ist. Der Benutzeraccount "@stairjoke@indieweb.social" von Wenzel Massag wird von Indieweb.social verwaltet und betrieben. Die Inhalte des Fediverse und alle damit verbundenen Server, inklusive indieweb.social, sind nicht Teil dieser Webseite (wenzels.blog). Siehe auch (link: https://indieweb.social/privacy-policy text: Datenschutzerklärung von indieweb.social target: _blank).
