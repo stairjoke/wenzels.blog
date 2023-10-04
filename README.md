@@ -1,5 +1,5 @@
 # https://wenzels.blog/
 A collection of notes.
 
-# Pre-Release
-I just got started, this isn’t even version 0.1.
+# Version 1
+This is the version 1 of this website
