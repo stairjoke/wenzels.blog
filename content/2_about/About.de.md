@@ -8,10 +8,24 @@ TitleLong: Über diesen Blog
 
 Text:
 
-## Was glaubt der eigentlich wer er ist?
-Für meine deutschen Leser beantworte ich hier gleich diese Frage: Ich schreibe einfach, weil ich Spaß daran habe. Wenn es mir darauf ankäme viele Leser zu erreichen, würde ich in die Medien gehen. Dieses Web-Log (Blog) ist eine Sammlung von Gedanken, Meinungen, Erfahrungen und Mehr. Die sehr extrovertierte amerikanische Idee des persönlich betriebenen, aber nicht persönlichen Blogs gefällt mir.
+Title: About
 
-## Was Sie hier erwartet
-Ich wurde 1991 geboren und wuchs am/im (link: https://de.wikipedia.org/wiki/Bodensee text: Bodensee target: _blank) auf. Ich bin Hobby-Fotograf seit ich groß genug bin eine Kamera zu halten, Technik-Nerd seit ich groß genug bin um auf einen Bürostuhl zu klettern, Web-Designer seit meinem 16. Lebensjahr und überzeugter E-Mobilist seit 2018. Im Januar 2021 schloss ich mein Studium als Mediendesigner (B.Sc.) ab, arbeitete dann ein Jahr bei (link: https://www.sketch.com text: Sketch B.V. target: _blank) in den Niederlanden und Seit November 2022 bin ich zurück in Deutschland und (link: https://wenzels.design text: als Designer selbstständig. target: _blank)
+----
 
-Texte auf diesem Blog entstehen, wenn mir die maximal 500 erlaubten Zeichen auf Mastodon nicht ausreichen. Das passiert meistens dann, wenn mir etwas wichtig ist und ich nutze diese Grenze deshalb als Qualitätsfilter für diesen Blog. Ungefilterten Einblick bekommen Sie auf Mastodon: (link: https://indieweb.social/@stairjoke text: @stairjoke@indieweb.social target: _blank). Wenn Sie nur das Bessere sehen wollten, dann abonnieren Sie den (link: /feed text: RSS feed!)
+TitleLong: About this blog
+
+----
+
+Text:
+
+## Für wen hält der sich eigentlich?
+In Deutschland wird das Führen eines persönlichen Blogs manchmal als selbstverliebt oder sogar narzisstisch angesehen. Vor allem, wenn es um persönliche Meinungen oder Erfahrungen geht. Dieser Blog ist mehrsprachig auf Deutsch und Englisch verfügbar, und für meine deutschen Leser dachte ich, ich sollte mich erklären:
+
+Wer denke ich, dass ich bin? Ich schreibe, weil es mir Spaß macht. Wenn es mir wichtig wäre, viele Leser zu erreichen, würde ich in die Medien gehen oder alle meine Inhalte als Beiträge in den Sozialen Netzwerken veröffentlichen. Dieser Web-Log (Blog) ist eine Sammlung von Gedanken, Meinungen, Erfahrungen und mehr. Ich mag die sehr extrovertierte amerikanische Idee des persönlich geführten, aber nicht persönlichen Blogs.
+
+## Was Sie erwartet
+Ich bin 1991 geboren und aufgewachsen am/im (link: https://de.wikipedia.org/wiki/Lake_Constance text: Bodensee target: _blank). Ich bin Hobbyfotograf, seit ich groß genug bin, um eine Kamera zu halten, Technikfreak, seit ich groß genug bin, um auf einen Bürostuhl zu klettern, Webdesigner, seit ich 16 bin, und Elektroauto-Fan, seit Tesla 2012 das (link: https://de.wikipedia.org/wiki/Tesla_Model_S text: Tesla Model S target: _blank) veröffentlicht hat.
+
+Im Januar 2021 schloss ich mein Studium als Mediendesigner (B. Sc.) ab, machte ein Praktikum bei (link: https://Avira.com text: Avira.com target: _blank), wo ich bei der Überarbeitung des Designsystems half, bevor ich für ein Jahr in den Niederlanden bei (link: https://www.sketch.com text: Sketch B.V. target: _blank) arbeitete. Im November 2022 kehrte ich nach Deutschland zurück und begann meine (link: https://wenzels.design text: Freiberufliche Tätigkeit als selbständiger Designer. target: _blank)
+
+Ich schreibe Artikel auf diesem Blog, wenn mir danach ist oder wenn die 500 Zeichen eines Mastodon-Beitrags zu knapp sind, um einen Gedanken auszudrücken, den ich gerne teilen möchte. Mein Mastodon ist (link: https://indieweb.social/@stairjoke text: @stairjoke@indieweb.social target: _blank).
