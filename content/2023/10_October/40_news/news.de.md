@@ -21,13 +21,6 @@ In den ersten Monaten dieses Jahres hatte ich zunehmend das Gefühl, dass beachb
 
 Durch die Entscheidung, unter einer Domain zu schreiben, die buchstäblich *„mein Name Punkt Blog”* ist (wenzels.blog), habe ich mir die Erlaubnis gegeben, auf eine persönlichere und entspanntere Weise zu schreiben. Beachball.tech impliziert Fokus auf die Misserfolge und Fehltritte von Apple und der Technikbranche generell und das ist kein Schwerpunkt, den ich als Fundament meines Blogs möchte. Vor allem nicht während so viele tolle und positive Dinge passieren. Ich habe mich auch durch den Namen beachball.tech davon abhalten lassen, mehr über Design zu schreiben — aber ich bin studierter Designer und würde gerne über einige Designthemen bloggen! Wenn Du Dich für mehr als nur Technik interessierst, kannst Du Dich darauf freuen!
 
-## Newsletter?
-Ich werde einen Newsletter einrichten. Selbstverständlich gibt es einen [Feed für diesen Blog,](/feed) aber um für alle zugänglich zu sein, werde ich einen Newsletter mit monatlichen oder vierteljährlichen Zusammenfassungen meiner Beiträge einrichten, sobald sich genügend Leute angemeldet haben:
-
-[form]
-
-Warum? Die Meisten, die ich kenne, abonnieren entweder Kanäle und #Hashtags in den Sozialen Netzwerken oder E-Mail-Newsletter. Einen Blog zu abonnieren bedeutet heutzutage oft, sich für dessen Newsletter anzumelden und nur Wenige verwenden einen Feed-Reader, um Blogs zu abonnieren. Gerade seit Google und Apple aufgegeben haben Feeds in Safari, Apple Mail und Google Reader zu unterstützen, wissen nur noch wenige was sie mit einer RSS Datei tun sollen. Um Feeds zu abonnieren, braucht man seither eine eigene App. Es gibt ein paar wirklich gute davon. Falls Du das Abonnieren per Feed-Reader ausprobieren möchtest, empfehle ich <a href=https://reederapp.com target=_blank>Reeder,</a> eine tolle App die ich selbst gerne nutze!
-
 ## Technische Updates
 ### Kirby CMS
 Ich habe diesen Blog von Grund neu auf aufgebaut, ohne alten Code weiterzuverwenden. Er ist auf dem Kirby CMS aufgebaut, einem wunderbaren kleinen Content Management System, das eher wie ein Framework konzipiert ist, als irgendetwas anderes. Kirby ist flexibel. Es erlaubt mir, meine Inhalte unabhängig vom Design der Website zu verwalten — ich könnte es sogar „headless” (ohne Webseite) nutzen.[^headless]

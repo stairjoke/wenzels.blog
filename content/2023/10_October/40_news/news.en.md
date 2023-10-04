@@ -21,13 +21,6 @@ In the early months of this year, beachball.tech increasingly began to feel like
 
 By deciding to post on a domain that is literally *“my name dot blog”* (wenzels.blog), I am giving myself permission to write in a more personal and relaxed way. Beachball.tech also implied a focus on the failures and missteps of Apple and the technology sector in general. That is not a focus I want to set as the foundation of my blog, especially when so many cool and positive things are happening. I also let the name deter me from posting more about design — but I studied design and I would love to blog about some design topics. Something to look forward to, if you’re into more than just the technical side of things!
 
-## Newsletter?
-I will start a newsletter. Of course there is a [feed for this blog,](/feed) but to be inclusive and easily accessible for everybody, I will start sending out a newsletter with monthly or quarterly summaries of my posts, as soon as enough people have signed up:
-
-[form]
-
-Why? Most people I know, either subscribe to channels and hashtags on social media, or to email newsletters. Subscribing to a blog these days often means signing up for its newsletter. Few people use a feed reader to subscribe to blogs, especially since Google and Apple gave up on supporting feeds natively in Safari, Apple Mail, and Google Reader. To subscribe to feeds, you need a dedicated app nowadays, and there are a couple really good ones out there. If you want to give subscribing via feed reader a try, I use and recommend <a href=https://reederapp.com target=_blank>Reeder,</a> which is a great app.
-
 ## Technology updates
 ### Kirby CMS
 I built this blog fresh and from the ground up without re-using any old code. It is build on the Kirby CMS, a wonderful little content management system designed to be more like a framework than anything else. Kirby is flexible. It allows me to manage my content independently from the design of this site — I could even use it headless.[^headless]
