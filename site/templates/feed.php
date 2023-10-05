@@ -87,7 +87,7 @@
 		$itemGUIDNode = $rss->createElement('guid', $itemGUID);
 		$itemNode->appendChild($itemGUIDNode);
 		
-		$itemDescription = "<![CDATA[" . $currentPage->text()->kt() . "]]>";
+		$itemDescription = $currentPage->text()->kt();
 		$itemDescriptionCDATANode = $rss->createCDATASection($itemDescription);
 		$itemDescriptionNode = $rss->createElement('description');
 		$itemDescriptionNode->appendChild($itemDescriptionCDATANode);
