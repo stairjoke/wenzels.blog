@@ -33,7 +33,7 @@ Bei der Entwicklung dieser Website lag mein Fokus hauptsächlich auf dem technis
 Warum? Weil ich in Deutschland lebe, deutsch spreche, aber die meiste Zeit lieber auf englisch schreibe. Warum sollte ich das nicht als Vorteil nutzen, um nicht nur über Technik aus der englischsprachigen Welt, sondern auch aus Deutschland, der Schweiz und Österreich zu bloggen?
 
 ### Support für alte Adressen
-Wenn Du einen Link zu einem Artikel anklickst, der jemals auf beachball.tech veröffentlicht wurde, wirst Du zur Artikelversion hier auf wenzels.blog weitergeleitet. Sogar die Artikel, die ich „unveröffentlicht” habe, indem ich sie in der Navigation, im RSS-Feed und für Suchmaschinen versteckt habe, werden korrekt weitergeleitet.
+Wenn Du einen Link zu einem Artikel öffnest, der im Oktober 2023 auf beachball.tech zu lesen ist, wirst Du zu seinem Gegenstück hier auf wenzels.blog weitergeleitet.
 
 ----
 

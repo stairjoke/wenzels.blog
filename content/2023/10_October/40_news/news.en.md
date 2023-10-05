@@ -33,7 +33,7 @@ While developing this site I focused mainly on the technological foundation — 
 Why? Because I live in Germany, speak German, but prefer to write in English most of the time. Why shouldn’t I use that as an advantage to blog about technology from not just the English speaking world, but also Germany, Switzerland, and Austria?
 
 ### Support for old URLs
-If you follow a link to any article ever published on beachball.tech, you will be forwarded to its counterpart here on wenzels.blog. Even those articles I decided to "unpublish" by making them invisible in the navigation, RSS feed, and for search engines, will forward you correctly.
+If you follow a link to any article public and listed on beachball.tech in October 2023, you will be forwarded to its counterpart here on wenzels.blog.
 
 ----
 
