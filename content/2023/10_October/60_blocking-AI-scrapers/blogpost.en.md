@@ -2,29 +2,33 @@ Title: Some AI companies steal. Here is how you can stop them.
 
 ----
 
-Date: 2023-10-06 11:00+2
+Date: 2023-10-06 18:45+2
 
 ----
 
 Text:
 
-## What’s the problem?
-Recently I’ve been pondering this question: “Do I mind if AI is trained using the text I write?” And my answer is no, I don’t mind, but it is the wrong question to ask. The question should include who trains the AI and to what end? I should be asking myself: “Do I mind if AI companies use my data to train their models, profit from it, and not pay me anything in return?” Yes, I do mind.
+## What is the problem?
+Lately, I've been asking myself one question repeatedly: Do I mind if AI is trained with the text I write? My answer to that is: No, I don't mind. I should have asked myself a different question, though: Do I mind when AI companies use my data to train their models, profit from it, and pay me nothing in return? Yes, it bothers me.
 
-Companies like OpenAI, Meta (Facebook), Alphabet (Google), and others have been using data available online for free to train their AI models without paying the authors and copyright holders of those texts. And AIs crawl[^crawler] the internet for information they then appropriate and present to their users, often without crediting the source.
+Companies like OpenAI, Meta (Facebook), Alphabet (Google) and others are using the freely online available data to train their AI models. Yet they pay nothing to the authors and copyright holders of these texts. Often, the question of who has what rights over these texts is also unclear. AIs, with the help of so-called "crawlers"[^crawler], scour the Internet for information that they appropriate and present to their users, often without citing a source or holding the right over the text.
 
-[^crawler]: A crawler is an application running on an internet connected device, such as a server, that reads websites and clicks on links to find more websites to read. Its basically how Google knows what to show you in search results.
+[^crawler]: A crawler is an application that runs on a server and reads websites. It clicks on all the links on the page to find more websites to read. They were invented to provide data to search engines like Google.
 
-I want to stop companies from using my writing to their benefit without paying me. Yes, this blog is free for anybody to read, but I consider its use as training data for an AI as a form of copying and remixing. And doing so without crediting me and/or paying me is theft in my eyes.
+I want to stop AI companies from using my writing to their advantage without paying me. In this post I explain how I do that, and it's relatively simple. Yes, this blog is free for anyone to read, but I consider using this blog as training material for AI a form of piracy.
 
 ## The solution
-You might think that the `robots.txt`[^robotsTXT] is the solution to this problem. And yes, if AI companies could be trusted to respect the rules set in this file, the solution would be to add some user-agents[^userAgent] to the file and call it a day. But really, do you trust the AI crawlers to respect that? I don’t.
+Maybe you think that if you just put the AI companies' crawlers' user agents[^userAgent] into your `robots.txt`[^robotsTXT], the problem is solved. Indeed, if you want to trust the AI companies, that's the solution. However, I don't trust these companies anymore. So what we need is a solution that doesn't require trust.
 
-[^robotsTXT]: The Robots-file can be used to tell a crawler, like Google or OpenAI, that it is forbidden from reading some specified page of a website. It is a text-file a website administrator can store on their servers. Compliance is not guaranteed or enforceable.
+[^robotsTXT]: The robots file can be used to tell a crawler such as Google or OpenAI that it is forbidden to read a particular page of a website. It is a text file that a website administrator can store on the site's server. Compliance is not guaranteed or enforceable.
 
-[^userAgent]: The term user-agent stands for the kind of computer currently accessing a website. Example: If you open this website using Google Chrome, the user-agent visible to this website will reveal you’re using Chrome. If OpenAI accesses this website, the user-agent will be either “GPTBot” or “ChatGPT-User”.
+[^userAgent]: The term user agent represents the type of computer that is currently accessing a website. Example: If you open this website using Google Chrome, the server will see your user agent indicate that you are using Chrome. When OpenAI accesses this website, the user agent is either "GPTBot" or "ChatGPT-User".
 
-So, what do you do? You use an enforceable way to ban AI crawlers: `.htaccess`. Instead of asking crawlers to stay away, you deny them access. The following snippet does just that for the most prominent bots, and below I explain how it works and what else you might want to block.
+Such a solution is an enforceable technique, one whose compliance you have under control: `.htaccess`. Htaccess is a mechanism used by the Apache web server — probably the most widely used server software in the world. With `.htaccess` files you can customize the behavior of the server.
+
+Instead of asking crawlers to stay away, you deny them access. Or in the case of the code below, you simply send them an empty page. If you have never heard of `.htaccess`, please read the (link: https://httpd.apache.org/docs/2.4/howto/htaccess.html text: documentation on the Apache website target: _blank) before blindly using the code below.
+
+### The .htaccess-file
 
 	<IfModule mod_rewrite.c>
 	RewriteEngine on
@@ -35,32 +39,26 @@ So, what do you do? You use an enforceable way to ban AI crawlers: `.htaccess`. 
 	
 	</IfModule>
 
-## Is this effective?
-Probably, but it is easy to circumvent. If a company wanted to disguise their crawler, they could use a dishonest user-agent string that looks innocent. The crawler could pretend to be Google Chrome or Firefox, and your website would let them in without noticing. For this blog, I’ll take that risk. I’m pretty sure it would be quite the scandal if this happened and the tech community would be up in arms about it.
-
-## How the .htaccess-file works
-Htaccess is a mechanism used by the Apache web-server — probably the most widely used server software in the world. You can do a lot with `.htaccess`-files, and this one does this:
-
-**1 — If Apache is configured to allow editing user-requests, turn the `RewriteEngine` on:**
+## How this .htaccess-Datei works
+If Apache is configured to allow redirecting user requests, we enable the necessary module:
 
 	<IfModule mod_rewrite.c>
 	RewriteEngine on
 
-**2 — Set the conditions under which we want to block access:**
+Then, we specify the conditions under which we want to redirect requests:
 
 	RewriteCond %{HTTP_USER_AGENT} ^.*(CCBot|ChatGPT-User|FacebookBot|Google-Extended|GPTBot|Omgilibot).*$ [NC]
 
-This line looks for the user-agent and tests if it is either CCBot, ChatGPT-User, FacebookBot, Google-Extended, GPTBot, or Omgilibot.
-
-**3 — Block access:**
+We use `RewriteCond` and with the variable `HTTP_USER_AGENT`. We test this variable for these keywords: CCBot, ChatGPT-User, FacebookBot, Google-Extended, GPTBot and Omgilibot. If one of the tests is successful, we change the behavior of the server and send an empty page (`-`) as a replacement for all (`.*`) addresses.
 
 	RewriteRule .* - [F,L]
 	</IfModule>
 
-This last rule redirects any (`.*`) of their requests to nowhere (`-`), then ends the "if Apache is configured to allow editing user-requests"-section of the `.htaccess`-file.
+## Is this solution effective?
+Probably, but it can be circumvented. If an AI company wanted to cloak its crawler, it could simply send a spoofed user agent. One that looks innocent. For example, a crawler could pretend to be the Google Chrome browser or Firefox, and the site would let it in merrily. For this blog, I'll take that risk for now.
 
-## What else to block?
-The blogger “Fox” published (link: https://3xn.nl/projects/2023/10/06/bot-block-party/ text: a long list of user-agents target: _blank) they’re blocking. Use it in case you want to go further than me. I decided not to copy this list, because I don’t yet know what services all of those user-agents are, and I don’t want to accidentally block the wrong ones.
+## What else could be blocked?
+The blogger "Fox" published (link: https://3xn.nl/projects/2023/10/06/bot-block-party/ text: a long list of user agents target: _blank) which he blocks. Use this list if you want to go further than me. I decided not to include this list because I don't yet know what services these user agents represent.
 
 ----
 
