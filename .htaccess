@@ -8,6 +8,10 @@
 # http://yourdomain.com/about-us/team
 RewriteEngine on
 
+# Block AI scrapers
+RewriteCond %{HTTP_USER_AGENT} ^.*(CCBot|ChatGPT-User|FacebookBot|Google-Extended|GPTBot|Omgilibot).*$ [NC]
+RewriteRule .* - [F,L]
+
 # Forward all visitors to httpS
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
