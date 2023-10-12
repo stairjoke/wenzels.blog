@@ -41,6 +41,13 @@ p {
   }
 }
 
+figcaption {
+  font-size: .9rem;
+  color: var(--color-text-emphasized);
+  font-style: italic;
+  font-weight: 400;
+}
+
 .legal {
   color: var(--color-text-legal);
   --color-text-link: var(--color-text-legal);
