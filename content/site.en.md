@@ -10,6 +10,10 @@ description: A personal blog about design, technology and experiences.
 
 ----
 
+ogImageAlt: Graphic showing the text: “Wenzel’s Blog, a personal blog about design, technology and experiences.”
+
+----
+
 socials:
 
 - <nobr>(link: https://wenzels.design/ text: Portfolio target: _blank)</nobr>
