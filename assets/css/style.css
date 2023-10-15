@@ -357,6 +357,7 @@ main figure, main img, main video {
   min-width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
+  margin-block: 1.5rem;
 }
 .page-layout.default .main table td, .page-layout.default .main table tr {
   margin: 0;
@@ -479,6 +480,7 @@ main figure, main img, main video {
 body {
   background: var(--color-page);
   padding: 0;
+  font-size: 18px;
 }
 
 a, a:link, a:active, a:visited, a:hover, a:focus {
