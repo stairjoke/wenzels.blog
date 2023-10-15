@@ -150,11 +150,24 @@ code {
   margin: 0 0.05rem;
 }
 
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+sub {
+  top: 0.25em;
+}
+
 a.footnote-ref {
   display: inline-block;
   background: var(--color-code);
   line-height: 1;
-  padding: 0 0.27em 0.15em 0.3em;
+  padding: 0.025rem 0.31em 0.275em 0.31em;
+  min-width: 1rem;
+  min-height: 1rem;
+  box-sizing: border-box;
   border-radius: 100%;
   border: solid 1px transparent;
   font-family: "ibm-plex-mono", sans-serif;
