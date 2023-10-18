@@ -490,6 +490,33 @@ main figure, main img, main video {
   padding-left: 2em;
 }
 
+.note {
+  --color-note-accent: var(--color-page);
+  --color-note-text: var(--color-text-link);
+  --color-note-background: color-mix(in oklab, var(--color-note-accent) 9%, transparent);
+  padding: 0.5rem 0.5rem 0.4rem 0.5rem;
+  border-radius: var(--inner-radius);
+  border: solid 1px var(--color-note-accent);
+  color: var(--color-note-text);
+  background: var(--color-note-background);
+}
+@media (prefers-color-scheme: dark) {
+  .note {
+    --color-note-background: color-mix(in oklab, var(--color-note-accent) 24%, transparent);
+  }
+}
+
+.info {
+  --color-note-accent: #367CC4;
+  --color-note-text: #245688;
+}
+@media (prefers-color-scheme: dark) {
+  .info {
+    --color-note-accent: #0051a3;
+    --color-note-text: color(display-p3 0.135 0.45 0.765);
+  }
+}
+
 body {
   background: var(--color-page);
   padding: 0;
