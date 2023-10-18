@@ -1,6 +1,7 @@
 @use 'globals';
 @use 'typography';
 @use 'layout';
+@use 'notes';
 
 body {
   background: var(--color-page);

@@ -1,0 +1,25 @@
+.note {
+  --color-note-accent: var(--color-page);
+  --color-note-text: var(--color-text-link);
+  --color-note-background: color-mix(in oklab, var(--color-note-accent) 9%, transparent);
+
+  @media (prefers-color-scheme: dark){
+    --color-note-background: color-mix(in oklab, var(--color-note-accent) 24%, transparent);
+  }
+
+  padding: .5rem .5rem .4rem .5rem;
+  border-radius: var(--inner-radius);
+  border: solid 1px var(--color-note-accent);
+  color: var(--color-note-text);
+  background: var(--color-note-background);
+}
+
+.info {
+  --color-note-accent: #367CC4;
+  --color-note-text: #245688;
+
+  @media (prefers-color-scheme: dark){
+    --color-note-accent: #0051a3;
+    --color-note-text: color(display-p3 0.135 0.45 0.765);
+  }
+}
