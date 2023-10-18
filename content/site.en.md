@@ -17,7 +17,7 @@ ogImageAlt: Graphic showing the text: “Wenzel’s Blog, a personal blog about 
 socials:
 
 - <nobr>(link: https://wenzels.design/ text: Portfolio target: _blank)</nobr>
-- <nobr>(link: https://indieweb.social/@stairjoke text: Mastodon target: _blank)</nobr>
+- <nobr><a rel="me" href="https://indieweb.social/@stairjoke" target="_blank">Mastodon</a></nobr>
 - <nobr>(link: https://posts.cv/wenzel text: Posts.cv target: _blank)</nobr>
 
 ----
