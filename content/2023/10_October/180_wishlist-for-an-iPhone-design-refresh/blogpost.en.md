@@ -2,7 +2,7 @@ Title: Wishlist for an iPhone design refresh
 
 ----
 
-Date: 2023-10-17 18:00+2
+Date: 2023-10-18 18:00+2
 
 ----
 
@@ -77,7 +77,7 @@ How can Apple help with this problem? By making recycled plastic fashionable! Im
 A recycled plastic back inspired by the wonderful iPhone 5C and the 2023 Watch Bands could become a fashion statement for environmental protection. It would look great without needing a case, aging gracefully, showing its battle scars from inside our pockets, purses, and the concrete floor it was dropped on. This material choice could make the phone a net negative polluter. It would also be cheaper to produce and nicer to hold than glass and metal phones. **It would be a refreshing change of pace to see Apple use its power as a trend setter to define recycled plastic as a classy and fashionable material!**
 
 ## Is any of this even remotely realistic?
-I have no idea if nay of this is realistic. If you’d like to bring this wishlist to Apple’s attention, you could send it to Tim and let him know which of these points would make you buy a new iPhone: (link: mailto:tcook@apple.com text: tcook@apple.com target: _blank) We know he reads customer emails and often forwards them internally.
+I have no idea if any of this is realistic. If you’d like to bring this wishlist to Apple’s attention, you could send it to Tim and let him know which of these points would make you buy a new iPhone: (link: mailto:tcook@apple.com text: tcook@apple.com target: _blank) We know he reads customer emails and often forwards them internally.
 
 ----
 

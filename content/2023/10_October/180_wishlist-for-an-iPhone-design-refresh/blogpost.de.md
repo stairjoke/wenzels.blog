@@ -59,7 +59,7 @@ Apple traute sich auch iPhones freudig zu gestalten, statt nur tadellos — und
 
 (image: white.jpg caption: Das iPhone 5C in weiß.)
 
-Das iPhone 5C war ein echter Hingucker und lag angenehm in der Hand. Es hat bis heute Fans! öVor nur wenigen Tagen schrieb BasicAppleGuy (link: https://mastodon.social/@BasicAppleGuy/111237018172895938 text: auf Mastodon: target: _blank)
+Das iPhone 5C war ein echter Hingucker und lag angenehm in der Hand. Es hat bis heute Fans! Vor nur wenigen Tagen schrieb BasicAppleGuy (link: https://mastodon.social/@BasicAppleGuy/111237018172895938 text: auf Mastodon: target: _blank)
 
 > Never had or handled an iPhone 5c until today... These phones are drop dead gorgeous and feel fantastic in the hand.
 
