@@ -8,7 +8,7 @@ Date: 2023-10-18 18:00+2
 
 Text:
 
-After the recent iPhone 15 announcement, I felt underwhelmed and disappointed. When Tim signed off at the end of the keynote, I didn’t want to buy the new iPhone, but wondered what had happened to Apple in recent years. This feeling of disappointment and my bored reaction to the Apple’s new flagship products motivated me to ask myself the question: “What would have made me want to replace my iPhone 12 Pro?” And I found several answers I want to share in the form of a wishlist.
+After the recent iPhone 15 announcement, I felt underwhelmed and disappointed. When Tim signed off at the end of the keynote, I didn’t want to buy the new iPhone, but wondered what had happened to Apple in recent years. This feeling of disappointment and my bored reaction to Apple’s new flagship products motivated me to ask myself the question: “What would have made me want to replace my iPhone 12 Pro?” And I found several answers I want to share in the form of a wishlist.
 
 ## A singlehanded-use friendly size
 
