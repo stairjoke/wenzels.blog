@@ -2,4 +2,8 @@
 A collection of notes.
 
 # Version 1
-This is the version 1 of this website
+run locally using
+
+```
+php -S localhost:8080 kirby/router.php
+```
