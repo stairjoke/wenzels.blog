@@ -58,8 +58,8 @@ This one is particularly interesting, as it signals a lack of understanding on M
     
     Here are some GDPR compliant alternatives I am using. I use them myself, because I tested them and decided I liked their offering. Only after being a customer and trying them for months or years did I try to get affiliate links. If you click on an affiliate link and decide to become a customer I get a commission:
     
-    - (link: https://go.getproton.me/aff_c?offer_id=26&aff_id=5133&url_id=267 text: Proton Mail target: _blank) (affiliate)
-    - (link: https://www.adobe.com/?sdid=49F59KY6 text: Adobe Fonts target: _blank) (affiliate)
+    - (link: https://go.getproton.me/aff_c?offer_id=26&aff_id=5133&url_id=267 text: Proton Mail (proton.me), target: _blank) Affiliate Link
+    - (link: https://www.adobe.com/?sdid=49F59KY6 text: Adobe Fonts (adobe.com), target: _blank) Affiliate Link
     - (link: https://www.hosteurope.de text: Host Europe target: _blank)
 
 ----
