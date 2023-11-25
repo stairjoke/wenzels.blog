@@ -145,6 +145,10 @@ code, pre {
   background: var(--color-codeblock);
 }
 
+pre {
+  overflow: scroll;
+}
+
 code {
   padding: 0.1rem 0.25rem;
   margin: 0 0.05rem;
@@ -367,7 +371,7 @@ main figure, main img, main video {
   }
 }
 .page-layout.default .main table {
-  min-width: 100%;
+  width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
   margin-block: 1.5rem;

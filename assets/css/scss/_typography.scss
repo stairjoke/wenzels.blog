@@ -81,6 +81,10 @@ code, pre {
   background: var(--color-codeblock);
 }
 
+pre {
+  overflow: scroll;
+}
+
 code {
   padding: .1rem .25rem;
   margin: 0 .05rem;
