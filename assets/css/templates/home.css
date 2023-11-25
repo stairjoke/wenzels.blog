@@ -1,79 +1,11 @@
 .page-layout.home {
   padding: 1rem;
 }
-@media (min-width: 694px) {
-  .page-layout.home {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    align-items: stretch;
-  }
-}
 .page-layout.home article {
   --color-text-link: var(--color-text);
   --link-decoration: none;
-  flex-basis: calc(50% - 1rem);
-  flex-grow: 1;
-  flex-shrink: 0;
-}
-@media (min-width: 693px) {
-  .page-layout.home article {
-    --color-text-link-hover: var(--color-text);
-    --link-decoration-hover: none;
-  }
-}
-@media (max-width: 693px) {
-  .page-layout.home article {
-    margin: 1rem 0;
-  }
-}
-@media (min-width: 1024px) {
-  .page-layout.home article {
-    flex-basis: calc(25% - 4rem);
-  }
-}
-.page-layout.home article.most-recent {
-  flex-basis: 100%;
-}
-@media (min-width: 694px) {
-  .page-layout.home article.most-recent a {
-    background: var(--gradient-block);
-  }
-  .page-layout.home article.most-recent a:hover {
-    background: var(--gradient-block-hover);
-  }
-}
-.page-layout.home article a {
-  border-radius: var(--inner-radius);
-  transition-timing-function: ease-in-out;
-  transition-duration: 320ms;
-}
-.page-layout.home article a h2 {
-  margin: 0;
-}
-.page-layout.home article a time {
-  margin-top: 0.5rem;
-}
-@media (min-width: 694px) {
-  .page-layout.home article a {
-    display: block;
-    background-color: var(--color-group);
-    padding: 1rem;
-    position: relative;
-    min-height: 8rem;
-  }
-  .page-layout.home article a:hover {
-    background-color: var(--color-group-hover);
-  }
-  .page-layout.home article a time {
-    position: absolute;
-    bottom: 1rem;
-  }
-}
-.page-layout.home article a:hover, .page-layout.home article a:focus {
-  transition-timing-function: ease-out;
-  transition-duration: 80ms;
-  box-shadow: 0 0 1rem var(--color-shadow);
+  --color-text-link-hover: var(--color-text);
+  --link-decoration-hover: none;
 }
 .page-layout.home .pagination {
   flex-basis: 100%;
