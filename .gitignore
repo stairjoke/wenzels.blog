@@ -48,3 +48,7 @@ Icon
 # ---------------
 
 /site/config/.license
+
+# Content: Do not upload drafts
+# ---------------
+/content/**/_*/
