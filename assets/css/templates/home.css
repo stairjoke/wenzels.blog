@@ -1,15 +1,3 @@
-.page-layout.home {
-  padding: 1rem;
-}
-.page-layout.home article {
-  --color-text-link: var(--color-text);
-  --link-decoration: none;
-  --color-text-link-hover: var(--color-text);
-  --link-decoration-hover: none;
-}
-.page-layout.home .pagination {
-  flex-basis: 100%;
-  text-align: center;
-}
+
 
 /*# sourceMappingURL=home.css.map */

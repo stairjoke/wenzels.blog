@@ -8,12 +8,35 @@
 	$articles = $blogposts->paginate(3);
 	$pagination = $articles->pagination();
 ?>
-<div class="page-layout home">
+<div class="page-layout">
 	<?php foreach($articles as $article) : ?>
 		<article>
-			<a href="<?= $article->url() ?>"><h2><?= $article->title() ?></h2></a>
-			<time datetime="<?= $page->date()->toDate('Y-MM-FF kk-mm-ss.SSSxxx') ?>"><?= renderPubdate($article, $kirby) ?></time>
-			<?= $article->text()->kt() ?>
+			<div class="left">
+				<?php
+					$resultOfInlineNavigation = generateInlineNavigation($article->text());
+					if(gettype($resultOfInlineNavigation) == 'array'):
+				?>
+				<nav class="sidebar">
+					<?= $resultOfInlineNavigation[1] ?>
+				</nav>
+				<?php
+					endif;
+				?>
+			</div>
+			<div class="main">
+				<a href="<?= $article->url() ?>"><h2><?= $article->title() ?></h2></a>
+				<time datetime="<?= $article->date()->toDate('Y-MM-FF kk-mm-ss.SSSxxx') ?>"><?= renderPubdate($article, $kirby) ?></time>
+				<?= $article->text()->kt() ?>
+				<div class="permalink">
+					<div class="permalinkLayout">
+						<a href="<?= $article->permalink() ?>" title="<?= t('permalinkInfo') ?>">Permalink:</a>
+							<input type="text" value="<?= $article->permalink() ?>" />
+							<button class="permalinkInfoTrigger">ℹ︎</button>
+					</div>
+					<p class="permalinkInfo"><?= t('permalinkInfo') ?></p>
+				</div>
+			</div>
+			<div class="right"></div>			
 		</article>
 	<?php endforeach; ?>
 	

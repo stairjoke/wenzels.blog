@@ -1,16 +1,5 @@
 // Styles for home.php template file
 
-.page-layout.home {
-  padding: 1rem;
+.pagination {
 
-  article {
-    --color-text-link: var(--color-text);
-    --link-decoration: none;
-    --color-text-link-hover: var(--color-text);
-    --link-decoration-hover: none;
-  }
-  .pagination {
-    flex-basis: 100%;
-    text-align: center;
-  }
 }

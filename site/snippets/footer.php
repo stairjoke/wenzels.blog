@@ -2,7 +2,7 @@
 			<footer>
 				<nav class="left-right-divide layout-row">
 					<?= $site->socials()->kt() ?>
-					<ul>
+					<ul class="shrink-override">
 						<li><?php
 							$legalDisclosure = $site->find('legal-disclosure');
 							echo(linkToPage($legalDisclosure));

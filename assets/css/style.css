@@ -188,7 +188,7 @@ a.footnote-ref:hover {
 }
 
 :root {
-  --scroll-offset: 6.4rem;
+  --scroll-offset: 7.4rem;
 }
 
 [id] {
@@ -197,6 +197,8 @@ a.footnote-ref:hover {
 
 body {
   margin: 2rem 0.5rem;
+  width: 100vw;
+  box-sizing: border-box;
 }
 @media (max-width: 374px) {
   body {
@@ -230,6 +232,7 @@ header, .page-title {
   min-height: calc(100vh - 4rem);
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 footer {
@@ -304,7 +307,7 @@ header nav, footer nav {
   display: flex;
   gap: 1rem;
 }
-.left-right-divide > *:last-child {
+.left-right-divide > *:last-child:not(.shrink-override) {
   flex-shrink: 0;
   margin-left: auto;
 }
@@ -320,9 +323,6 @@ main figure, main img, main video {
 
 .page-layout {
   margin: 23rem auto 5rem auto;
-  border-radius: var(--outer-radius);
-  background: var(--color-main);
-  box-shadow: 0 0 16rem var(--color-shadow);
   max-width: 1264px;
 }
 @media (max-width: 693px) {
@@ -330,99 +330,111 @@ main figure, main img, main video {
     margin: 2rem auto 2rem auto;
   }
 }
-.page-layout.default {
+.page-layout > article {
+  background: var(--color-main);
+  border-radius: var(--outer-radius);
+  box-shadow: 0 0 16rem var(--color-shadow);
+  margin-block-end: 6rem;
   display: flex;
   justify-items: stretch;
 }
 @media (max-width: 694px) {
-  .page-layout.default {
+  .page-layout > article {
+    margin-block-end: 4rem;
+  }
+}
+@media (max-width: 694px) {
+  .page-layout > article {
     display: block;
   }
 }
-.page-layout.default .left {
+.page-layout > article .left {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 25%;
   border-radius: var(--outer-radius) 0 0 var(--outer-radius);
-  padding: 1rem;
+  padding: 2rem 1rem 1rem 1rem;
 }
 @media (max-width: 694px) {
-  .page-layout.default .left {
+  .page-layout > article .left {
     border-radius: var(--outer-radius) var(--outer-radius) 0 0;
     padding: 0;
   }
-  .page-layout.default .left:has(.sidebar) {
+  .page-layout > article .left:has(.sidebar) {
     background: var(--color-group);
     padding: 1rem;
   }
 }
-.page-layout.default .left:has(.sidebar) {
+.page-layout > article .left:has(.sidebar) {
   background: var(--color-group);
 }
-.page-layout.default .main {
+.page-layout > article .main {
+  overflow-x: visible;
   flex-basis: 16cm;
   flex-grow: 0;
   flex-shrink: 1;
   padding: 1rem;
 }
 @media (min-width: 1024px) {
-  .page-layout.default .main {
+  .page-layout > article .main {
     flex-shrink: 0;
   }
 }
-.page-layout.default .main table {
+.page-layout > article .main table {
+  background: var(--color-main);
+  padding: 0.5rem;
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
   margin-block: 1.5rem;
 }
-.page-layout.default .main table td, .page-layout.default .main table tr {
+.page-layout > article .main table td, .page-layout > article .main table tr {
   margin: 0;
   padding: 0;
 }
-.page-layout.default .main table td, .page-layout.default .main table th {
+.page-layout > article .main table td, .page-layout > article .main table th {
   padding: 0.25rem;
   border-right: solid 2px var(--color-group-inline);
 }
-.page-layout.default .main table td:last-child, .page-layout.default .main table th:last-child {
+.page-layout > article .main table td:last-child, .page-layout > article .main table th:last-child {
   border-right: none;
 }
-.page-layout.default .main table tr:nth-child(even) td {
+.page-layout > article .main table tr:nth-child(even) td {
   background: var(--color-group);
 }
-.page-layout.default .main table thead {
+.page-layout > article .main table thead {
   background: var(--color-page);
   color: var(--color-text-inverted);
 }
-.page-layout.default .main table thead th {
+.page-layout > article .main table thead th {
   border-right: solid 2px var(--color-group-inline);
 }
-.page-layout.default .main .footnotes hr {
+.page-layout > article .main .footnotes hr {
   display: none;
 }
-.page-layout.default .main .footnotes::before {
+.page-layout > article .main .footnotes::before {
   display: block;
   content: "";
   width: 38.2%;
   height: 1px;
   background: var(--color-text-dimmed);
 }
-.page-layout.default .main .permalink {
+.page-layout > article .main .permalink {
   background: var(--color-group-inline);
   padding: 0.5em;
   margin-top: 2rem;
   border-radius: var(--inner-radius);
 }
-.page-layout.default .main .permalink .permalinkLayout {
+.page-layout > article .main .permalink .permalinkLayout {
   width: 100%;
   display: flex;
   align-items: stretch;
   gap: 0.25em;
 }
-.page-layout.default .main .permalink .permalinkLayout a, .page-layout.default .main .permalink .permalinkLayout button {
+.page-layout > article .main .permalink .permalinkLayout a, .page-layout > article .main .permalink .permalinkLayout button {
   flex-grow: 0;
 }
-.page-layout.default .main .permalink .permalinkLayout input {
+.page-layout > article .main .permalink .permalinkLayout input {
   flex-grow: 1;
   background: var(--color-main);
   border-radius: var(--inner-radius);
@@ -431,10 +443,10 @@ main figure, main img, main video {
   padding-right: 0.5em;
   color: var(--color-text-code);
 }
-.page-layout.default .main .permalink .permalinkLayout button {
+.page-layout > article .main .permalink .permalinkLayout button {
   margin-right: 0;
 }
-.page-layout.default .main .permalink .permalinkInfoTrigger {
+.page-layout > article .main .permalink .permalinkInfoTrigger {
   background: var(--color-code);
   border-radius: 100%;
   border: solid 1px transparent;
@@ -447,31 +459,31 @@ main figure, main img, main video {
   text-align: center;
   color: var(--color-text);
 }
-.page-layout.default .main .permalink .permalinkInfoTrigger:hover {
+.page-layout > article .main .permalink .permalinkInfoTrigger:hover {
   border: solid 1px var(--color-text-dimmed);
 }
 @media (pointer: fine) {
-  .page-layout.default .main .permalink:has(.permalinkInfoTrigger) p {
+  .page-layout > article .main .permalink:has(.permalinkInfoTrigger) p {
     margin-block-end: 0;
   }
-  .page-layout.default .main .permalink:has(.permalinkInfoTrigger) .permalinkInfo {
+  .page-layout > article .main .permalink:has(.permalinkInfoTrigger) .permalinkInfo {
     display: none;
   }
-  .page-layout.default .main .permalink:has(.permalinkInfoTrigger:hover) p {
+  .page-layout > article .main .permalink:has(.permalinkInfoTrigger:hover) p {
     margin-block-end: unset;
   }
-  .page-layout.default .main .permalink:has(.permalinkInfoTrigger:hover) .permalinkInfo {
+  .page-layout > article .main .permalink:has(.permalinkInfoTrigger:hover) .permalinkInfo {
     display: block;
   }
 }
-.page-layout.default .right {
+.page-layout > article .right {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 25%;
   padding: 1rem;
 }
 @media (max-width: 960px) {
-  .page-layout.default .right {
+  .page-layout > article .right {
     display: none;
   }
 }

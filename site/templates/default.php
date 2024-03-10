@@ -1,7 +1,7 @@
 <?= snippet('header') ?>
-<article>
-	<?= snippet('default-page-title') ?>
-	<div class="page-layout default">
+<?= snippet('default-page-title') ?>
+<div class="page-layout default">
+	<article>
 		<div class="left">
 			<?php
 				$resultOfInlineNavigation = generateInlineNavigation($page->text());
@@ -32,6 +32,6 @@
 			</div>
 		</div>
 		<div class="right"></div>
-	</div>
-</article>
+	</article>
+</div>
 <?= snippet('footer') ?>
