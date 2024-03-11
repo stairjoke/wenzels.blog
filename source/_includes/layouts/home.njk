@@ -1,0 +1,14 @@
+---
+layout: layouts/document.njk
+---
+<main>
+	<h1>{{ site.strings.latestPosts | safe }}</h1>
+	<ol>
+		{% for note in collections.note | reverse %}
+		<a href="{{ note.url }}"><li{% if page.url == note.url %} aria-current=page{% endif %}>
+			<h2>{{ note.data.title }}</h2>
+			<p>{{ note.data.teaser }}</p>
+	</li></a>
+		{% endfor %}
+	</ol>
+</main>

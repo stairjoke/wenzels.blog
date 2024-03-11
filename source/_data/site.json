@@ -1,0 +1,31 @@
+{
+	"title": "Wenzels.Blog",
+	"socials": [
+		{
+			"content": "Mastodon",
+			"href": "https://indieweb.social/@stairjoke",
+			"rel": "me"
+		},
+		{
+			"content": "Posts.CV",
+			"href": "https://posts.cv/wenzel!"
+		},
+		{
+			"content": "Threads",
+			"href": "https://www.threads.net/@wenzels.social"
+		}
+	],
+	"links": [
+		{
+			"content": "Portfolio",
+			"href": "https://wenzels.design"
+		},
+		{
+			"content": "eMail",
+			"href": "mailto:wenzel@wenzels.blog"
+		}
+	],
+	"strings": {
+		"latestPosts": "Latest Posts"
+	}
+}
