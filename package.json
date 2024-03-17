@@ -16,5 +16,11 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "@stairjoke/markdown-it-alt-figure": "github:stairjoke/markdown-it-alt-figure",
+    "highlight.js": "^11.9.0",
+    "markdown-it-external-links": "^0.0.6",
+    "markdown-it-footnote": "^4.0.0"
   }
 }
