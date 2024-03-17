@@ -1,4 +1,5 @@
 {
 	"layout": "layouts/note.njk",
-	"tags": ["note"]
+	"tags": ["note"],
+	"base": "/notes/"
 }
