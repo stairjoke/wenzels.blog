@@ -11,6 +11,7 @@ Icon?
 /.vscode
 /.idea
 /.nova
+**/.obsidian
 
 # Node Dev
 # --------
