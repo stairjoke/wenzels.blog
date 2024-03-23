@@ -1,5 +1,6 @@
 {
 	"title": "Wenzels.Blog",
+	"base": "/wenzels.blog/",
 	"socials": [
 		{
 			"content": "Mastodon",

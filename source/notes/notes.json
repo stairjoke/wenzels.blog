@@ -1,6 +1,6 @@
 {
 	"layout": "layouts/note.njk",
 	"tags": ["note"],
-	"base": "/notes/",
+	"base": "/wenzels.blog/notes/",
 	"title": "Note"
 }
