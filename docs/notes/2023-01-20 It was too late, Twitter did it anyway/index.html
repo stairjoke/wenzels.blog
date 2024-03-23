@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>It was too late, Twitter did it anyway
+ — Wenzels.Blog</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="/assets/hljs-vs2015.min.css" />
+		<base href="/notes/" />
+	</head>
+	<body>
+		<header>
+			<a href="/"><h1>Wenzels.Blog</h1></a>
+		</header>
+		<main>
+	<h1>It was too late, Twitter did it anyway
+</h1>
+	<h3>What happened</h3>
+<p>This week the APIs<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> for third party clients, such as Twitterrific, just stopped working. I wasn't sure what headline to give this post. Twitter did something that was long overdue, but it did it in the worst possible way. Twitter killed third party clients this week, quietly, causing one hell of a stir in the community. Getting rid of these APIs was one of two valid choices that I could see. Let's talk about it!</p>
+<h3>Some background on Twitter</h3>
+<p>Unlike other, more modern, social networks, Twitter didn't start with an app, it started as a website with an SMS interface.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> That is because Twitter is older than the iPhone, and first-class mobile internet was not a thing when Twitter launched. Much like many of the good things about Twitter, the idea of having an app to read and post tweets was not Twitter's, but came from the community. The now official Twitter client was originally a third party app<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> that was aquired by Twitter in 2010. This app also introduced the invention “pull to refresh”.<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup> A gesture so ubiquitous these days, you can even pull to refresh a website in Safari on iOS.</p>
+<h3>Why these are belated growing pains</h3>
+<p>The time to pull third party APIs for Twitter would have been in April 2010—about 13 years ago. Back then Twitter did not stop supporting third party clients, and speculation about why could range from “too many users were using third party apps” to ”Twitter didn't yet have a business model that would suffer from having third party apps”. Twitter was run like a ship in the middle of the ocean caught in a thick fog and with very little wind in its sails for a long time. Profitability was not a priority. For example, third party clients never showed ads, making them arguably the better experience for Twitter.</p>
+<h3>Twitter's inability to innovate</h3>
+<p>It was not a secret that Twitter needed to get its act together long before the Techno King of Tesla<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup> purchased it. Many users were annoyed by the ads in their timelines for long enough that they asked to be allowed to pay to use Twitter without ads. Take a second and let that sink in: Users asked to be allowed to pay. Just like @mentions, #tags, and quote tweets, Twitter Blue was introduced not as an innovation the company came up with, but in response to users suggesting it aggressively.</p>
+<h3>Forced to grow up</h3>
+<p>Fast forward to this week. Ever since he who shall not be named bought Twitter and took it private, many things have changed. In many regards he made Twitter worse, but there is one thing he got right: Twitter needs to become a profitable business or it will die. Pulling the plug on third party APIs is one way to go. Actually maintaining them and charging for their use would have been another. But quietly turning them off was the wrong move, alienating developers and users alike. The new Twitter CEO has a lot to learn in terms of communication. In my opinion, he is woefully inept in this regard.</p>
+<h3>Update 20. Jan, 2023:</h3>
+<p>One — The alternative to shutting the APIs down was to maintain and monetize them.</p>
+<p>Two — technically the APIs are still working, but Twitter updated the developer agreement <q>to make clear that app makers are no longer permitted to create their own clients.</q><sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup> They should have updated their terms and published that change with some lead time first and pulled the plug second. The way it was done and how Twitter talks about it now, makes it look like Twitter is attempting to re-write history to hide this embarrassing mismanagement.<sup class="footnote-ref"><a href="#fn7" id="fnref7">[7]</a></sup></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>An API is essentially a point of contact between a service and apps. It is where apps go to get data or send data to. If you open the Twitter app, it calls the API to download your feed, if you tweet, it calls the API to send your tweet to Twitter. Some APIs are public, some are private. Public APIs are meant to be used by third parties, private APIs are usually reserved for apps made by the company itself. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Technically, Twitter started as part of Odeo, but the first iteration of Twitter as its own service was an SMS application. Source: <cite>(link: https://en.wikipedia.org/wiki/Twitter#History text: Twitter target: _blank)</cite> on Wikipedia.org. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>Source: <cite>(link: https://en.wikipedia.org/wiki/Tweetie text: Tweetie target: _blank) on Wikipedia.org. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><cite><q cite="https://en.wikipedia.org/wiki/Pull-to-refresh">The pull-to-refresh gesture first appeared in the Tweetie mobile application developed by Loren Brichter. Brichter developed Tweetie, an iOS application for Twitter, as a personal project in 2008 after he quit his job at Apple Inc. in 2007.</q> Quote: (link: https://en.wikipedia.org/wiki/Pull-to-refresh text: Pull-to-refresh target: _blank) on Wikipedia.org. <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><blockquote>
+<p>Elon is Technoking of Tesla and has served as our Chief Executive Officer since October 2008 and as a member of the Board since April 2004. […]</p>
+</blockquote>
+<p><cite>(link: https://ir.tesla.com/corporate/elon-musk text: Elon Musk target: _blank)</cite> published by tesla.com. <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p><cite>(link: https://www.engadget.com/twitter-new-developer-terms-ban-third-party-clients-211247096.html text: Twitter’s new developer terms ban third-party clients target: _blank)</cite> published January 19, 2023 by Karissa Bell on engadget.com. <a href="#fnref6" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn7" class="footnote-item"><p><q cite="https://twitter.com/TwitterDev/status/1615405842735714304">(link: https://twitter.com/TwitterDev/status/1615405842735714304 text: Twitter is enforcing its long-standing API rules. That may result in some apps not working. target: _blank)</q> published January 17, 2023 by @TwitterDev on Twitter.com. <a href="#fnref7" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+</main>
+
+	</body>
+</html>
