@@ -1,13 +1,14 @@
 ---
 layout: layouts/document.njk
+base: /wenzels.blog/
 ---
 <main>
 	<h1>{{ site.strings.latestPosts | safe }}</h1>
-	<ol>
+	<ol class="list-of-posts">
 		{% for note in collections.note | reverse %}
-		<a href="{{ note.url }}"{% if note.data.title == "Note" %} class="note" {% endif %}><li{% if page.url == note.url %} aria-current=page{% endif %}>
-			<h2>{{ note.data.title }}</h2>
+		<li{% if page.url == note.url %} aria-current=page{% endif %}>
+			<h2><a href="{{ note.url }}"{% if note.data.title == "Note" %} class="note" {% endif %}>{{ note.data.title }}</a></h2>
 			<p>{{ note.data.teaser }}</p>
-		</li></a>{% endfor %}
+		</li>{% endfor %}
 	</ol>
 </main>

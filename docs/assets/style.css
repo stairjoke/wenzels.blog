@@ -1,0 +1,172 @@
+/*
+	Wenzels.blog -- Styles
+*/
+/* - Ions */
+/* |-- Color Variables */
+:root {
+  --color-debug: #f0f;
+  --color-group: #E5E5E5;
+  --color-main: #F0F0F0;
+  --color-text: #292929;
+  --color-text-emphasized: #000000;
+  --color-text-dimmed: rgba(0,0,0,0.62);
+  --color-headline: #292929;
+  --color-accent: #007533;
+  --color-accent-hover: #00a848;
+}
+@media (color-gamut: p3) {
+  :root {
+    --color-accent: color(display-p3 0 0.46 0.061);
+    --color-accent-hover: color(display-p3 0 0.66 0.088);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-group: #101916;
+    --color-main: #0D0D0D;
+    --color-text: #bbb;
+    --color-text-emphasized: #D1D1D1;
+    --color-text-dimmed: rgba(204, 204, 204, 0.7);
+    --color-headline: #999;
+    --color-accent: #00D667;
+    --color-accent-hover: #00a34e;
+  }
+}
+@media (prefers-color-scheme: dark) and (color-gamut: p3) {
+  :root {
+    --color-accent: color(display-p3 0 0.84 0.406);
+    --color-accent-hover: color(display-p3 0 0.64 0.309);
+  }
+}
+/* |-- Length variables */
+:root {
+  --radius-inline-elements: .25rem;
+  --radius-block-elements: 1rem;
+}
+
+body {
+  font-family: ui-serif, "New York", "Georgia", "Palatino", "Times New Roman", serif;
+  font-weight: 300;
+  /* Using CSS properties until lrh support is above 98% */
+  --line-height-factor: 1.35;
+  line-height: var(--line-height-factor);
+}
+
+header, main, footer {
+  max-width: 14cm;
+  margin: 0 auto;
+  padding: 1rem;
+}
+@supports (margin-trim: block) {
+  header, main, footer {
+    margin-trim: block;
+  }
+}
+@supports not (margin-trim: block) {
+  header > *:first-child, main > *:first-child, footer > *:first-child {
+    margin-top: 0;
+  }
+  header > *:last-child, main > *:last-child, footer > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+main {
+  background: var(--color-main);
+  border-radius: var(--radius-block-elements);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 650;
+  font-size: 1.5rem;
+  margin: 2rlh 0 0 0;
+}
+@supports (margin: 1rlh 0) {
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 2rlh;
+  }
+}
+@supports not (margin: 1rlh 0) {
+  h1, h2, h3, h4, h5, h6 {
+    line-height: calc(2rem * var(--line-height-factor));
+  }
+}
+
+h1 {
+  font-size: 2rem;
+}
+@supports (margin: 1rlh 0) {
+  h1 {
+    line-height: 3rlh;
+  }
+}
+@supports not (margin: 1rlh 0) {
+  h1 {
+    line-height: calc(3rem * var(--line-height-factor));
+  }
+}
+
+h3, h4, h5, h6 {
+  font-size: 1rem;
+}
+
+@supports (margin: 1rlh 0) {
+  p {
+    margin: 0.25rlh 0 1rlh 0;
+  }
+}
+@supports not (margin: 1rlh 0) {
+  p {
+    margin: calc(0.25rem * var(--line-height-factor)) 0 calc(1rem * var(--line-height-factor)) 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  border-radius: var(--radius-inline-elements);
+}
+a:link, a:active, a:visited, a:hover, a:focus {
+  text-decoration: underline;
+  color: var(--color-accent);
+}
+a:hover, a:focus {
+  color: var(--color-accent-hover);
+}
+a:focus {
+  background: var(--color-group);
+}
+
+ol.list-of-posts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ol.list-of-posts li {
+  padding: 0;
+}
+@supports (margin-trim: block) {
+  ol.list-of-posts li {
+    margin-trim: block;
+  }
+}
+@supports not (margin-trim: block) {
+  ol.list-of-posts li > *:first-child {
+    margin-top: 0;
+  }
+  ol.list-of-posts li > *:last-child {
+    margin-bottom: 0;
+  }
+}
+@supports (margin: 2rlh 0) {
+  ol.list-of-posts li {
+    margin: 2rlh 0;
+  }
+}
+@supports not (margin: 1rlh 0) {
+  ol.list-of-posts li {
+    margin: calc(2rem * var(--line-height-factor)) 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

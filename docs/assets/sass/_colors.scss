@@ -1,0 +1,39 @@
+// Wenzels.blog
+/* |-- Color Variables */
+
+:root {
+	--color-debug: #f0f;
+	
+	--color-group: #E5E5E5;
+	--color-main: #F0F0F0;
+	--color-text: #292929;
+	--color-text-emphasized: #000000;
+	--color-text-dimmed: rgba(0,0,0,0.62);
+	--color-headline: #292929;
+	
+	--color-accent: #007533;
+	--color-accent-hover: #00a848;
+	
+	@media (color-gamut: p3){
+		--color-accent: color(display-p3 0 0.46 0.061);
+		--color-accent-hover: color(display-p3 0 0.66 0.088);
+	}
+}
+@media (prefers-color-scheme: dark){
+	:root {
+		--color-group: #101916;
+		--color-main: #0D0D0D;
+		--color-text: #bbb;
+		--color-text-emphasized: #D1D1D1;
+		--color-text-dimmed: rgba(204, 204, 204, 0.7);
+		--color-headline: #999;
+		
+		--color-accent: #00D667;
+		--color-accent-hover: #00a34e;
+		
+		@media (color-gamut: p3){
+			--color-accent: color(display-p3 0 0.84 0.406);
+			--color-accent-hover: color(display-p3 0 0.64 0.309);
+		}
+	}
+}	

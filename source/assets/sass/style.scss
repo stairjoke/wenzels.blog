@@ -1,0 +1,98 @@
+/*
+	Wenzels.blog -- Styles
+*/
+
+@use "ions";
+@use "mixins";
+
+body {
+	font-family: ui-serif, "New York", "Georgia", "Palatino", "Times New Roman", serif;
+	font-weight: 300;
+	
+	/* Using CSS properties until lrh support is above 98% */
+	--line-height-factor: 1.35;
+	line-height: var(--line-height-factor);
+}
+
+header, main, footer {
+	max-width: 14cm;
+	margin: 0 auto;
+	padding: 1rem;
+	@include mixins.margin-trim-block();
+}
+
+main {
+	background: var(--color-main);
+	border-radius: var(--radius-block-elements);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 650;
+	font-size: 1.5rem;
+	margin: 2rlh 0 0 0;
+	
+	@supports (margin: 1rlh 0) {
+		line-height: 2rlh;
+	}
+	@supports not (margin: 1rlh 0) {
+		line-height: calc(2rem * var(--line-height-factor));
+	}
+}
+h1 {
+	font-size: 2rem;
+	
+	@supports (margin: 1rlh 0) {
+		line-height: 3rlh;
+	}
+	@supports not (margin: 1rlh 0) {
+		line-height: calc(3rem * var(--line-height-factor));
+	}
+}
+h3, h4, h5, h6 {
+	font-size: 1rem;
+}
+
+p {
+	@supports (margin: 1rlh 0) {
+		margin: .25rlh 0 1rlh 0;
+	}
+	@supports not (margin: 1rlh 0) {
+		margin: calc(.25rem * var(--line-height-factor)) 0 calc(1rem * var(--line-height-factor)) 0;
+	}
+}
+
+a {
+	text-decoration: none; // A-Elements should not underline unless they are actually links
+	border-radius: var(--radius-inline-elements);
+	
+	&:link, &:active, &:visited, &:hover, &:focus {
+		text-decoration: underline; // Underline if the link is actually a link
+		color: var(--color-accent);
+	}
+	
+	&:hover, &:focus {
+		color: var(--color-accent-hover);
+	}
+	
+	&:focus {
+		background: var(--color-group);
+	}
+}
+
+ol.list-of-posts {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+	li {
+		@include mixins.margin-trim-block();
+		
+		@supports (margin: 2rlh 0) {
+			margin: 2rlh 0;
+		}
+		@supports not (margin: 1rlh 0) {
+			margin: calc(2rem * var(--line-height-factor)) 0;
+		}
+		padding: 0;
+	}
+}
