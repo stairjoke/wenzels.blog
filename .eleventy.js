@@ -3,6 +3,7 @@ const markdownItAltFigure = require("@stairjoke/markdown-it-alt-figure");
 const markdownItFootnote = require("markdown-it-footnote");
 const markdownItExternalLinks = require("markdown-it-external-links");
 const hljs = require("highlight.js");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig){
 	// Extend markdown-it
@@ -31,7 +32,6 @@ module.exports = function(eleventyConfig){
 	);
 	
 	// Pass through copy directories
-	eleventyConfig.addPassthroughCopy("source/@"); //The @ directory contains .htaccess data with HTTP302 redirects to ensure permalinks form the previous Kirby installation continue to work.
 	eleventyConfig.addPassthroughCopy("source/assets");
 	
 	// Pass through files
@@ -52,6 +52,9 @@ module.exports = function(eleventyConfig){
 	eleventyConfig.addLayoutAlias('home', 'layouts/home.njk');
 	eleventyConfig.addLayoutAlias('default', 'layouts/default.njk');
 	eleventyConfig.setLayoutResolution(false);
+	
+	// Add RSS
+	eleventyConfig.addPlugin(pluginRss);
 	
 	// Setup input/output folders
 	return {
