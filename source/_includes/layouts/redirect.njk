@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{{ site.title | safe }}</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="/assets/style.css" rel="stylesheet">{% if base|length %}<base href="{{ base }}" />{% endif %}{% if redirectURL|length %}<meta http-equiv="refresh" content="0;URL='https://wenzels.blog/{{ redirectURL | safe }}">{% endif %}
+	</head>
+	<body>
+		<header>
+			<p><a href="/">{{ site.title | safe }}</a></p>
+		</header>
+		<main>
+			{% if redirectURL|length %}<h1>Moved!</h1>
+			<p>The link you clicked points to a page that was moved, you should be redirected automatically. Go to <a href="https://wenzels.blog/{{ redirectURL | safe }}">{{ title | safe }}</a></p>{% else %}<h1>Deleted</h1>
+			<p>I’m sorry to disappoint you, the link you clicked leads to a deleted article.</p>
+			<h2>Why was this article deleted?</h2>
+			<p>When I moved this blog to a new CMS, I decided to delete articles of low quality or low relevancy.</p>{% endif %}
+		</main>
+	</body>
+</html>

@@ -1,6 +1,6 @@
 {
 	"layout": "layouts/note.njk",
 	"tags": ["note"],
-	"base": "https://stairjoke.github.io/wenzels.blog/notes/",
-	"title": "Note"
+	"title": "Note",
+	"base": "/notes/"
 }

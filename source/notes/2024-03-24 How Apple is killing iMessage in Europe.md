@@ -1,7 +1,7 @@
 ---
 title: How Apple is killing iMessage in Europe
 date: 2024-03-24
-teaser:
+teaser: This is an open letter to the Messages team at Apple. I argue that iMessage's closed nature and the, according to rumors, standalone RCS app harms iMessage’s popularity in Europe.
 ---
 Dear Apple Messages Team,
 Outside the US, the barrier between iMessage and other platforms is hurting iMessage’s popularity and usability. I like iMessage. It’s seamless and easy to use and integrates well into my life, but I also have some gripes. I live outside the US, where iMessage popularity is very low. Texting someone on iMessage is usually impossible, as most people use Android, and you refuse to make iMessage compatible. It is also frowned upon among many Apple users to use iMessage because most don’t want to use a second app for messaging, and they have to use WhatsApp anyway.
