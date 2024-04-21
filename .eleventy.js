@@ -58,6 +58,12 @@ module.exports = function(eleventyConfig){
 	// Add RSS
 	eleventyConfig.addPlugin(pluginRss);
 	
+	// Nice Date Formatting
+	eleventyConfig.addFilter("friendlyDate", function(value){
+		let months = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."];
+		return value.getDate() + '. ' + months[value.getMonth()] + " " + value.getFullYear() ;
+	});
+	
 	// Setup input/output folders
 	return {
 		dir: {
