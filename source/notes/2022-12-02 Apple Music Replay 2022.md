@@ -11,7 +11,7 @@ Usually, when you click on one of the big banners in Apple Music, it opens that 
 
 To Apple’s credit, the banner has a small label at the bottom, indicating it will open a page outside the app. But Apple should know better. When scanning the banners, the small indicator is one of the last things you notice. The concept of Visual Hierarchy is one of the fundamental principles of design and it was ignored here.
 
-<figure><video src="assets/2022-12-02%20Apple%20Music%20Replay%202022.md/2.mp4" poster="assets/2022-12-02%20Apple%20Music%20Replay%202022.md/2-poster.jpg" controls></video><figcaption>Screen-recording of the Music App on macOS showing the four suggestions listed under ‘Listen Now!’ — Would you expect clicking the replay panel to open Safari?</figcaption></figure>
+<figure><video poster="assets/2022-12-02%20Apple%20Music%20Replay%202022.md/2-poster.jpg" controls><source src="assets/2022-12-02%20Apple%20Music%20Replay%202022.md/2.mp4" /></video><figcaption>Screen-recording of the Music App on macOS showing the four suggestions listed under ‘Listen Now!’ — Would you expect clicking the replay panel to open Safari?</figcaption></figure>
 
 Let’s move on. Once you’ve gotten over the surprise that Apple just kicked you out of their Music app, you’ll realize that what you’re looking at is Apple Music in the browser. Unfortunately, the view greeting you is most likely the generic Apple Music web app because you’re unlikely to be signed in. The whole page needs to make more sense. All that should be visible at this point is the “Log In” button, but it’s tucked into the top right corner.
 
@@ -76,6 +76,6 @@ If I want to share my experience, I have to make a screen recording of the Apple
 
 Here is my screen recording — without sound. Unfortunately, it doesn’t reflect my taste because sometime this summer, my Apple Music completely reset and deleted all my listening history and playlists from several years, and I had to start from scratch.
 
-<figure><video src="assets/2022-12-02%20Apple%20Music%20Replay%202022.md/10-no-sound.mov" poster="assets/2022-12-02%20Apple%20Music%20Replay%202022.md/10-poster.jpg" controls></video><figcaption>A Screen recording without sound, meant to represent my experience using Apple Music. I know… it doesn’t make sense, but that’s where we are at with Apple’s UX.</figcaption></figure>
+<figure><video poster="assets/2022-12-02%20Apple%20Music%20Replay%202022.md/10-poster.jpg" controls><source src="assets/2022-12-02%20Apple%20Music%20Replay%202022.md/10-no-sound.mov" /></video><figcaption>A Screen recording without sound, meant to represent my experience using Apple Music. I know… it doesn’t make sense, but that’s where we are at with Apple’s UX.</figcaption></figure>
 
 Thank you for reading! If you’ve made it this far, I’m impressed. And since you care, I want to take a moment to acknowledge how technologically impressive this whole thing is, despite its flaws. The animations and web app use colors from the album artwork. The music Apple shows you in the Replay is not just your most played. It also contains some music you listened to less frequently but indicated you liked — for example, albums you listened to on repeat. I wish Apple hadn’t dropped the ball on UX testing this experience before publishing it.
