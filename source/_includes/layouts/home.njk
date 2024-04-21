@@ -2,7 +2,6 @@
 layout: layouts/document.njk
 ---
 <main>
-	<h1>{{ site.strings.latestPosts | safe }}</h1>
 	<ol class="list-of-posts">
 		{% for note in collections.note | reverse %}
 		<li{% if page.url == note.url %} aria-current=page{% endif %}>

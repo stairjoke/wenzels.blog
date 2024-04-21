@@ -24,8 +24,5 @@
 			"content": "eMail",
 			"href": "mailto:wenzel@wenzels.blog"
 		}
-	],
-	"strings": {
-		"latestPosts": "Latest Posts"
-	}
+	]
 }
