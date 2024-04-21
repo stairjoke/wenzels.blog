@@ -1,5 +1,5 @@
 /*
-	Wenzels.blog -- Styles
+	Wenzels.Blog -- Styles
 */
 /* - Ions */
 /* |-- Color Variables */
@@ -48,31 +48,15 @@
   --radius-block-elements: 1rem;
 }
 
+/*
+	Wenzels.Blog -- Typography
+*/
 body {
   font-family: ui-serif, "New York", "Georgia", "Palatino", "Times New Roman", serif;
   font-weight: 300;
   /* Using CSS properties until lrh support is above 98% */
   --line-height-factor: 1.35;
   line-height: var(--line-height-factor);
-}
-
-main, footer, header .container {
-  max-width: 16cm;
-  margin: 0 auto;
-  padding: 0;
-}
-@supports (margin-trim: block) {
-  main, footer, header .container {
-    margin-trim: block;
-  }
-}
-@supports not (margin-trim: block) {
-  main > *:first-child, footer > *:first-child, header .container > *:first-child {
-    margin-top: 0;
-  }
-  main > *:last-child, footer > *:last-child, header .container > *:last-child {
-    margin-bottom: 0;
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -139,26 +123,26 @@ a:focus {
   background: var(--color-highlight);
 }
 
-figure {
-  margin-block: 2rlh;
-  margin-inline: 0;
-  background: var(--color-group);
-  border-radius: var(--radius-block-elements);
-  overflow: hidden;
+/*
+	Wenzels.Blog -- Layout
+*/
+main, footer, header .container {
+  max-width: 16cm;
+  margin: 0 auto;
+  padding: 0;
 }
-figure img {
-  display: block;
-  border-radius: 0;
-  box-shadow: 0px 0px 1em var(--color-shadow);
+@supports (margin-trim: block) {
+  main, footer, header .container {
+    margin-trim: block;
+  }
 }
-figure figcaption {
-  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-  font-weight: 450;
-  font-size: 0.8rem;
-  letter-spacing: -0.03em;
-  color: var(--color-text-dimmed);
-  box-sizing: border-box;
-  padding: 0.5rem;
+@supports not (margin-trim: block) {
+  main > *:first-child, footer > *:first-child, header .container > *:first-child {
+    margin-top: 0;
+  }
+  main > *:last-child, footer > *:last-child, header .container > *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 header {
@@ -212,6 +196,34 @@ header ol li a:focus-visible {
   outline: solid 2px var(--color-accent);
 }
 
+/*
+	Wenzels.blog -- Figure
+*/
+figure {
+  margin-block: 2rlh;
+  margin-inline: 0;
+  background: var(--color-group);
+  border-radius: var(--radius-block-elements);
+  overflow: hidden;
+}
+figure img, figure video {
+  display: block;
+  border-radius: 0;
+  box-shadow: 0px 0px 1em var(--color-shadow);
+}
+figure figcaption {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-weight: 450;
+  font-size: 0.8rem;
+  letter-spacing: -0.03em;
+  color: var(--color-text-dimmed);
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+/*
+	Wenzels.Blog -- Misc Elements
+*/
 #permalink a {
   text-decoration: none !important;
 }
@@ -264,6 +276,26 @@ img, video {
   max-width: 100%;
   height: auto;
   border-radius: var(--radius-block-elements);
+}
+
+.list-of-posts .header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.list-of-posts .header time {
+  display: block;
+  margin-left: auto;
+  white-space: nowrap;
+  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  font-weight: 450;
+  font-size: 0.8rem;
+  letter-spacing: -0.03em;
+  color: var(--color-text-dimmed);
+  box-sizing: border-box;
+  padding: 0.25rem;
+  background: var(--color-group);
+  border-radius: var(--radius-inline-elements);
 }
 
 /*# sourceMappingURL=style.css.map */
