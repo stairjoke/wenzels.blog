@@ -1,5 +1,5 @@
 ---
-title: The scarcity of time
+title: Thoughts on the scarcity of time
 date: 2024-04-17
 teaser: You can’t save time for later and you only get 24 hours a day. Here is how I changed my life to adapt it to this fundamental truth.
 ---
