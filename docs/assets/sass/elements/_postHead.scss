@@ -1,0 +1,23 @@
+.list-of-posts .header {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	
+	time {
+		display: block;
+		margin-left: auto;
+		white-space: nowrap;
+		
+		font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+		font-weight: 450;
+		font-size: .8rem;
+		letter-spacing: -.03em;
+		color: var(--color-text-dimmed);
+		
+		box-sizing: border-box;
+		padding: .25rem;
+		
+		background: var(--color-group);
+		border-radius: var(--radius-inline-elements);
+	}
+}
