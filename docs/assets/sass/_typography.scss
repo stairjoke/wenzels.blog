@@ -47,6 +47,16 @@ p {
 	}
 }
 
+blockquote, q, cite {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0;
+	padding-inline: calc(1rem - 2px) 0;
+	border-left: solid 2px var(--color-accent);
+}
+
 a {
 	text-decoration: none; // A-Elements should not underline unless they are actually links
 	border-radius: var(--radius-inline-elements);

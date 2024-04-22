@@ -104,6 +104,16 @@ h3, h4, h5, h6 {
   }
 }
 
+blockquote, q, cite {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0;
+  padding-inline: calc(1rem - 2px) 0;
+  border-left: solid 2px var(--color-accent);
+}
+
 a {
   text-decoration: none;
   border-radius: var(--radius-inline-elements);
@@ -276,6 +286,12 @@ img, video {
   max-width: 100%;
   height: auto;
   border-radius: var(--radius-block-elements);
+}
+
+hr {
+  border: none;
+  border-top: dashed 1px var(--color-text-dimmed);
+  margin-block: 1rem;
 }
 
 .postHead {
