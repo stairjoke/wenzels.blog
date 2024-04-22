@@ -36,6 +36,7 @@ module.exports = function(eleventyConfig){
 	
 	// Pass through files
 	eleventyConfig.addPassthroughCopy("source/**/*.xml");
+	eleventyConfig.addPassthroughCopy("source/CNAME");
 	
 	eleventyConfig.addPassthroughCopy("source/**/*.jpg");
 	eleventyConfig.addPassthroughCopy("source/**/*.jpeg");
