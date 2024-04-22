@@ -60,8 +60,10 @@ module.exports = function(eleventyConfig){
 	
 	// Nice Date Formatting
 	eleventyConfig.addFilter("friendlyDate", function(value){
-		let months = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sep.", "Oct.", "Nov.", "Dec."];
-		return value.getDate() + '. ' + months[value.getMonth()] + " " + value.getFullYear() ;
+		// !!! INVISIBLE IN MONOSPACE:
+		// !!! Abbreviated months use a punctuation-space " " after the abbr. period. Other spaces are normal size spaces!
+		let months = ["Jan. ", "Feb. ", "Mar. ", "Apr. ", "May ", "Jun. ", "Jul. ", "Aug. ", "Sep. ", "Oct. ", "Nov. ", "Dec. "];
+		return months[value.getMonth()] + value.getDate() + ", " + value.getFullYear() ;
 	});
 	
 	// Setup input/output folders

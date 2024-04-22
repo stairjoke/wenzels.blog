@@ -287,7 +287,6 @@ img, video {
   display: block;
   margin-left: auto;
   white-space: nowrap;
-  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
   font-weight: 450;
   font-size: 0.8rem;
   letter-spacing: -0.03em;
