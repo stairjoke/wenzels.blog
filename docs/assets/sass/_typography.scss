@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 650;
 	font-size: 1.5rem;
 	margin: 2rlh 0 0 0;
+	color: var(--color-text-dimmed);
 	
 	@supports (margin: 1rlh 0) {
 		line-height: 2rlh;
@@ -59,19 +60,18 @@ blockquote {
 
 a {
 	text-decoration: none; // A-Elements should not underline unless they are actually links
-	border-radius: var(--radius-inline-elements);
 	
 	&:link, &:active, &:visited, &:hover, &:focus {
 		text-decoration: underline; // Underline if the link is actually a link
 		color: var(--color-accent);
 	}
 	
-	&:hover, &:focus {
-		color: var(--color-accent-hover);
+	&:visited {
+		color: var(--color-link-visited);
 	}
 	
-	&:focus {
-		background: var(--color-group);
+	&:hover, &:focus {
+		color: var(--color-accent-hover);
 	}
 }
 

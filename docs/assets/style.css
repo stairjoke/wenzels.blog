@@ -12,6 +12,7 @@
   --color-text-dimmed: rgba(0,0,0,0.62);
   --color-headline: #292929;
   --color-accent: #007533;
+  --color-link-visited: #606060;
   --color-accent-hover: #0073cc;
   --color-shadow: rgba(0,0,0,0.16);
   /*
@@ -63,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 650;
   font-size: 1.5rem;
   margin: 2rlh 0 0 0;
+  color: var(--color-text-dimmed);
 }
 @supports (margin: 1rlh 0) {
   h1, h2, h3, h4, h5, h6 {
@@ -116,17 +118,16 @@ blockquote {
 
 a {
   text-decoration: none;
-  border-radius: var(--radius-inline-elements);
 }
 a:link, a:active, a:visited, a:hover, a:focus {
   text-decoration: underline;
   color: var(--color-accent);
 }
+a:visited {
+  color: var(--color-link-visited);
+}
 a:hover, a:focus {
   color: var(--color-accent-hover);
-}
-a:focus {
-  background: var(--color-group);
 }
 
 ::selection {
@@ -175,6 +176,34 @@ header .container {
   flex-direction: row;
   justify-content: flex-end;
 }
+header a {
+  padding: 0.25rem 0.5rem;
+  text-decoration: none !important;
+  border-radius: var(--radius-inline-elements);
+  border: solid 1px transparent;
+  background: url("wave.svg");
+  background-position: 0 calc(1em + 0.75rem);
+  background-repeat: repeat-x;
+  transition-property: background-position-y, color, border-color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+header a:visited {
+  color: var(--color-accent);
+}
+header a:hover, header a:focus {
+  color: white;
+  border-left-color: var(--color-text-dimmed);
+  border-bottom-color: var(--color-text-dimmed);
+  border-right-color: var(--color-text-dimmed);
+  background-position: 60px 0;
+  transition-property: background-position, color, border-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+header a:focus-visible {
+  outline: solid 2px var(--color-accent-hover);
+}
 header #pageTitle {
   font-size: 1rem;
   margin: 0 auto 0 0;
@@ -186,6 +215,7 @@ header #pageTitle a {
 header ol {
   list-style: none;
   margin: 0;
+  margin-right: -0.5rem;
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -193,17 +223,7 @@ header ol {
 header ol li {
   margin: 0;
   padding: 0;
-}
-header ol li a {
-  padding: 0.25rem;
-  text-decoration: none !important;
-}
-header ol li a:hover, header ol li a:focus {
-  background: var(--color-highlight);
-  outline: solid 2px var(--color-highlight);
-}
-header ol li a:focus-visible {
-  outline: solid 2px var(--color-accent);
+  margin-inline: 1px;
 }
 
 /*
