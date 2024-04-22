@@ -278,12 +278,12 @@ img, video {
   border-radius: var(--radius-block-elements);
 }
 
-.list-of-posts .header {
+.postHead {
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
-.list-of-posts .header time {
+.postHead time {
   display: block;
   margin-left: auto;
   white-space: nowrap;
