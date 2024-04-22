@@ -1,5 +1,5 @@
 ---
-layout: "layouts/note.njk"
+layout: "default"
 ---
 # About
 ## Hello!
