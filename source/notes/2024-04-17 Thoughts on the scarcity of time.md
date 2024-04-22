@@ -38,5 +38,3 @@ To eat well, I save money by buying less meat and more legumes. Legume-based di
 I struggled to exercise regularly for years because I felt like I had to. And I know from many other people that they also struggle with this. That was until I found something that was fun for me. Ok, so I’ll preach a little bit here:
 
 Find something fun; don’t do what you are told! Some people love the gym, which is great, but others prefer to go swimming or climbing. Exercise should be something you look forward to. Keep trying new things until you find an activity you’ll miss doing on your rest days!
-
-⌞w⌝
