@@ -56,6 +56,9 @@ module.exports = function(eleventyConfig){
 	eleventyConfig.addLayoutAlias('default', 'layouts/default.njk');
 	eleventyConfig.setLayoutResolution(false);
 	
+	// Add year shortcode
+	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+	
 	// Add RSS
 	eleventyConfig.addPlugin(pluginRss);
 	
