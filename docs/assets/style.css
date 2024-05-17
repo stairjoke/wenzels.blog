@@ -226,6 +226,23 @@ header ol li {
   margin-inline: 1px;
 }
 
+@supports (margin: 2rlh 0) {
+  footer {
+    margin-top: 2rlh;
+    margin-bottom: 4rlh;
+  }
+}
+@supports not (margin: 1rlh 0) {
+  footer {
+    margin-top: calc(2rem * var(--line-height-factor));
+    margin-bottom: calc(4rem * var(--line-height-factor));
+  }
+}
+footer .copy {
+  font-size: 0.8rem;
+  color: var(--color-text-dimmed);
+}
+
 /*
 	Wenzels.blog -- Figure
 */
