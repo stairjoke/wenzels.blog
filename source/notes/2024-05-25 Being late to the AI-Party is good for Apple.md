@@ -25,7 +25,7 @@ For a few years now, commentators online have speculated when Apple will add AI 
 
 3. Typing on any modern Apple device became a collaborative experience with the updates last year when Apple added Predictive Text to iOS, iPadOS, and macOS. Note that Predictive Text is not the suggestions shown above the keyboard on your phone but the gray text that often appears on the right side of your cursor.
 
-<figure><video src="assets/2024-05-25%20Being%20late%20to%20the%20AI-Party%20is%20good.md/Apple%20Predictive%20Text.mov" poster="assets/2024-05-25%20Being%20late%20to%20the%20AI-Party%20is%20good.md/Apple%20Predictive%20Text%20Poster.jpg" controls></video><figcaption>Screen recording of Apple Predictive Text on an iPhone 12 Pro in 2024.</figcaption></figure>
+<figure><video src="assets/2024-05-25%20Being%20late%20to%20the%20AI-Party%20is%20good%20for%20Apple.md/Apple%20Predictive%20Text.mov" poster="assets/2024-05-25%20Being%20late%20to%20the%20AI-Party%20is%20good%20for%20Apple.md/Apple%20Predictive%20Text%20Poster.jpg" controls></video><figcaption>Screen recording of Apple Predictive Text on an iPhone 12 Pro in 2024.</figcaption></figure>
 
 This last example is a very non-flashy use of generative AI / an LLM. It’s very restrained, very controlled, and perfectly within Apple’s comfort zone. It won’t try to answer questions or write an entire e-mail for you, yet it is pretty helpful, especially when typing on a small screen like an iPhone.
 
