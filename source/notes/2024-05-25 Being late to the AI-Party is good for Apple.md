@@ -33,5 +33,5 @@ I think Apple is doing its users a favor by adding ~~AI~~ LLMs and ML (Machine
 
 ---
 ### Related Reading:
-- [Publishing AI Slop is a choice](https://www.nytimes.com/2024/05/24/technology/google-ai-overview-search.html) by John Gruber
+- [Publishing AI Slop is a choice](https://daringfireball.net/linked/2024/05/24/publishing-ai-slop-is-a-choice) by John Gruber
 - [Google’s A.I. Answers Said to Put Glue in Pizza, So Katie Notopoulos Made Some Pizza](https://pxlnv.com/linklog/google-ai-answers/) by Nick Heer
