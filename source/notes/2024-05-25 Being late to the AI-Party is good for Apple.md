@@ -1,7 +1,7 @@
 ---
 title: Being late to the AI-Party is good for Apple
 date: 2024-05-25
-teaser: Google's new "AI Overview" feature in search results once more highlights the limitations LLMs. I think Apple, on the other hand, integrates AI and ML subtly and effectively, enhancing functionality without the risks of generative AI.
+teaser: Google's new "AI Overview" feature in search results once more highlights the limitations of LLMs. I think Apple, on the other hand, integrates AI and ML subtly and effectively, enhancing functionality without the risks of generative AI.
 ---
 ## What’s the deal with AI?
 
