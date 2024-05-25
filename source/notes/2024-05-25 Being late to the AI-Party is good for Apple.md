@@ -30,3 +30,8 @@ For a few years now, commentators online have speculated when Apple will add AI 
 This last example is a very non-flashy use of generative AI / an LLM. It’s very restrained, very controlled, and perfectly within Apple’s comfort zone. It won’t try to answer questions or write an entire e-mail for you, yet it is pretty helpful, especially when typing on a small screen like an iPhone.
 
 I think Apple is doing its users a favor by adding ~~AI~~ LLMs and ML (Machine Learning) in such an understated and non-flashy fashion to its products. The commentator’s cries for AI on Apple’s devices are, in my opinion, short-sighted and unreasonable. No, Apple should not add an AI that generates entire E-Mails, hallucinates fake news, or generates images with questionable copyright status. I think Apple is striking just the right balance on AI, LLMs, and ML on its products.
+
+---
+### Related Reading:
+- [Publishing AI Slop is a choice](https://www.nytimes.com/2024/05/24/technology/google-ai-overview-search.html) by John Gruber
+- [Google’s A.I. Answers Said to Put Glue in Pizza, So Katie Notopoulos Made Some Pizza](https://pxlnv.com/linklog/google-ai-answers/) by Nick Heer
