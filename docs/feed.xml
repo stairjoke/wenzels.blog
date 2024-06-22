@@ -7,6 +7,30 @@
 	<description>A pensive.</description>
 	<language>en</language>
 	<item>
+	  <title>Apple Intelligence and Electron Apps</title>
+	  <link>https://wenzels.blog/notes/2024-06-22%203%20Apple%20Intelligence%20and%20Electron%20Apps/</link>
+	  <description>Apple Intelligence enhances macOS apps built with native technologies like SwiftUI, while Electron apps, which are essentially web apps, will miss out on these improvements.</description>
+	  <pubDate>Sat, 22 Jun 2024 02:00:00 +0000</pubDate>
+	  <dc:creator>Wenzel Massag</dc:creator>
+	  <guid>https://wenzels.blog/notes/2024-06-22%203%20Apple%20Intelligence%20and%20Electron%20Apps/</guid>
+	</item>
+	<item>
+	  <title>Thoughts on Apple Intelligence</title>
+	  <link>https://wenzels.blog/notes/2024-06-22%202%20Thoughts%20on%20Apple%20Intelligence/</link>
+	  <description>In this article I compare Apple Intelligence to Notion AI. I explain how Apple Intelligence is different from others like ChatGPT, and attempt to highlight how it faces similar, but reduced privacy risks.</description>
+	  <pubDate>Sat, 22 Jun 2024 02:00:00 +0000</pubDate>
+	  <dc:creator>Wenzel Massag</dc:creator>
+	  <guid>https://wenzels.blog/notes/2024-06-22%202%20Thoughts%20on%20Apple%20Intelligence/</guid>
+	</item>
+	<item>
+	  <title>Apple Intelligence and the DMA</title>
+	  <link>https://wenzels.blog/notes/2024-06-22%201%20Apple%20Intelligence%20and%20the%20DMA/</link>
+	  <description>What does the DMA mean for Europe and companies operating within it? In this article I look at the legislative differences between the US and EU and what this means for Apple Intelligence and the European market.</description>
+	  <pubDate>Sat, 22 Jun 2024 02:00:00 +0000</pubDate>
+	  <dc:creator>Wenzel Massag</dc:creator>
+	  <guid>https://wenzels.blog/notes/2024-06-22%201%20Apple%20Intelligence%20and%20the%20DMA/</guid>
+	</item>
+	<item>
 	  <title>The WWDC 2024 keynote invite email hints at a gaming or movie focused event</title>
 	  <link>https://wenzels.blog/notes/2024-06-04%20WWDC%20keynote%20invite%20hints%20at%20games%20or%20movies/</link>
 	  <description>WWDC 2024 invites hint at a focus on gaming, I think. The German version suggests games and movies specifically.</description>

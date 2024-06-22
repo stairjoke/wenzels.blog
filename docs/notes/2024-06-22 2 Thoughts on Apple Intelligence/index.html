@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Thoughts on Apple Intelligence — Wenzels.Blog</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="/assets/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="/assets/hljs-vs2015.min.css" />
+		<link rel="alternate" type="application/rss+xml" 
+		  title="RSS Feed" 
+		  href="/feed.xml" />
+		<base href="/notes/" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 id="pageTitle"><a href="/" title="Home"><span role="img" aria-label="Home">🏡</span> <span class="viewport-hideOnXS">Wenzels.Blog</span></a></h1>
+				<ol>
+					<li><a href="/about">About</a></li>
+					<li><a href="https://wenzels.design" target="_blank">Work</a></li>
+					<li><a href="/feed.xml" target="_blank">RSS</a></li>
+				</ol>
+			</div>
+		</header>
+		<main>
+	<div class="postHead">
+		<h1>Thoughts on Apple Intelligence</h1>
+		<time datetime="Sat, 22 Jun 2024 02:00:00 +0000">Jun. 22, 2024</time>
+	</div>
+	<p>If you’re wondering what Apple Intelligence is, I recommend <a href="https://youtu.be/qkYoBNdcXBU?si=Nnwr-5VwsnLrLiwc&amp;t=630" class="external-link" target="_blank">MKBHD’s,</a> <a href="https://youtu.be/8gt0Lw2ZUqY?si=xoCrEjXsw88Q0D5-" class="external-link" target="_blank">iJustine’s,</a> and <a href="https://youtu.be/C0Yu-hkk1c8?si=iQsE9coYiBlqT253&amp;t=1052" class="external-link" target="_blank">Snazzy Labs’</a> videos. Ok, now that we’re all caught up, here are some thoughts.</p>
+<hr>
+<h2>The Name: Apple Intelligence</h2>
+<p>You’ve probably heard of AI (Artificial Intelligence) before. In a very Apple move, Apple has branded its AI platform “Apple Intelligence”, which can also be abbreviated to AI. But to be able to distinguish between AI (Artificial Intelligence) and AI (Apple Intelligence) I will be using AI for Artificial Intelligence and AAI for “Apple AI“ as in Apple Intelligence.</p>
+<h2>How it’s different: Privacy &amp; Context</h2>
+<p>Apple’s flavor of AI (AAI) is different from what we’ve come to think of as AI in recent years—for example: like chatGPT—and Apple clearly communicated how AAI is different: Privacy and context.</p>
+<h3>Privacy</h3>
+<p>Apple Intelligence (AAI) is a flavor of artificial intelligence (AI) that exists within your personal context and is privacy-focused. Privacy in this context means that Apple doesn’t store, analyze, or train on your data. Apple will upload your data for some tasks to a specially secured cloud, if necessary; A technology it calls &quot;Private Cloud Compute&quot;,<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> more on that later.</p>
+<p>I wonder if the uploading of some data in some cases might become a problem for Apple’s privacy promise in the future. In the US, at least, there is the “Third Party Doctrine”:</p>
+<blockquote>
+<p>The third-party doctrine is a United States legal doctrine that holds that people who voluntarily give information to third parties […] have &quot;no reasonable expectation of privacy&quot;[…]<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+</blockquote>
+<p>In my understanding, as soon as Apple’s AI uploads data to the internet, US Citizens can no longer consider that data private. This is also a conflict between the EU and the US, as the GDPR prohibits uploading EU users’ data to servers outside the EU unless it is encrypted before transmission and in such a way that it cannot be decrypted on the server.</p>
+<h3>Context</h3>
+<p>Let’s move on from the privacy claims and problems to the functionality of AAI. Basing AAI in the user’s context means AAI follows a fundamentally different philosophy from other AIs, such as ChatGPT, Perplexity, and Gemini. If you ask one of those about an email or text message you received, they will not have the data to answer the question—but they will probably make something up and pretend they know everything. If you ask AAI about an email or text message, it has access to your inboxes, and it will be able to reference that data to compose an accurate reply—or take action.</p>
+<p>Basing AAI in the user’s context is not entirely original. It looks to me like the idea behind Apple Intelligence is similar to that of Notion AI. Notion is—extremely simplified—a notes app. In Notion, you can use AI to analyze data within your personal or your company’s Notion. Notion AI can compose text or gather information from all of the data you put into Notion. AAI works similarly, but across the Apple platform, instead of the Notion platform. Notion AI and Apple AI use your personal context, instead of world context, to help you. Apple uses the context from your device (Mac, iPhone, etc), whereas Notion AI uses what you’ve uploaded into Notion.</p>
+<p>On a technical level, the two AIs differ more strongly: For one Notion AI runs in the cloud and is, as far as I know, ChatGPT in disguise. Apple AI runs on your device and only sometimes uses Apple’s “Private Cloud Compute”.<sup class="footnote-ref"><a href="#fn1" id="fnref1:1">[1:1]</a></sup> Still, it feels like Apple AI and Notion AI are competitors now.</p>
+<h2>Hardware requirements</h2>
+<p>There is one more thing about Apple Intelligence worth mentioning. AAI requires an M1 or later Mac or iPad, or an iPhone 15 Pro. A reasonable suspicion by Ben Thompson for that hardware limitation is that AAI requires at least 8GB of RAM to function. The hardware limitations, I think, will cause quite some stir with users once they realize their device isn’t compatible, or be utterly irrelevant. I suspect that by the time AAI becomes available in English, the iPhone 16 will have been released, and by the time Apple adds more languages to AAI, the iPhone 17 is probably already available for pre-order and many more people will already own a compatible device.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://security.apple.com/blog/private-cloud-compute/" class="external-link" target="_blank">Private Cloud Compute: A new frontier for AI privacy in the cloud</a> <a href="#fnref1" class="footnote-backref">↩︎</a> <a href="#fnref1:1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://en.wikipedia.org/wiki/Third-party_doctrine" class="external-link" target="_blank">Third-party doctrine on Wikipedia.</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+	<p id="permalink"><a href="/notes/2024-06-22 2 Thoughts on Apple Intelligence/">⌞w⌝</a></p>
+</main>
+
+		<footer>
+			<p>I’m on <a rel="me" href="https://indieweb.social/@stairjoke">Mastodon</a> <button onclick="navigator.clipboard.writeText('@stairjoke@indieweb.social'); alert('Mastodon ID copied to clipboard!')">click to copy "@stairjoke@indieweb.social"</button>, <a href="https://www.threads.net/@wenzels.social">Threads,</a> and <a href="https://posts.cv/wenzel">Posts.</a></p>
+			<p class="copy">© Copyright Jun. 22, 2024, Wenzel Massag. German copyright law applies, redistribution with attribution highly encouraged.</p>
+		</footer>
+	</body>
+</html>
