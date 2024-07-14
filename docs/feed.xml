@@ -7,6 +7,22 @@
 	<description>A pensive.</description>
 	<language>en</language>
 	<item>
+	  <title>I wish Apple Mail had PGP support!</title>
+	  <link>https://wenzels.blog/notes/2024-07-14%202%20Encrypted%20emails%20in%20Apple%20Mail/</link>
+	  <description>An open letter to the team working on Apple Mail @ Apple.</description>
+	  <pubDate>Sun, 14 Jul 2024 02:00:00 +0000</pubDate>
+	  <dc:creator>Wenzel Massag</dc:creator>
+	  <guid>https://wenzels.blog/notes/2024-07-14%202%20Encrypted%20emails%20in%20Apple%20Mail/</guid>
+	</item>
+	<item>
+	  <title>Europe’s IT problem / How GDPR and DMA have unintended consequences</title>
+	  <link>https://wenzels.blog/notes/2024-07-14%201%20Europe%E2%80%99s%20IT%20problem%20-%20How%20GDPR%20and%20DMA%20have%20unintended%20consequences/</link>
+	  <description>In this text I explore how the DMA and GDPR are having unintended consequences for the EU market. I explore several concrete examples to illustrate some of the less desirable outcomes.</description>
+	  <pubDate>Sun, 14 Jul 2024 02:00:00 +0000</pubDate>
+	  <dc:creator>Wenzel Massag</dc:creator>
+	  <guid>https://wenzels.blog/notes/2024-07-14%201%20Europe%E2%80%99s%20IT%20problem%20-%20How%20GDPR%20and%20DMA%20have%20unintended%20consequences/</guid>
+	</item>
+	<item>
 	  <title>Apple Intelligence and Electron Apps</title>
 	  <link>https://wenzels.blog/notes/2024-06-22%203%20Apple%20Intelligence%20and%20Electron%20Apps/</link>
 	  <description>Apple Intelligence enhances macOS apps built with native technologies like SwiftUI, while Electron apps, which are essentially web apps, will miss out on these improvements.</description>
