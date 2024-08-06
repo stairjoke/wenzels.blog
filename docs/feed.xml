@@ -7,6 +7,14 @@
 	<description>A pensive.</description>
 	<language>en</language>
 	<item>
+	  <title>Apple’s UI Hide and Seek on macOS</title>
+	  <link>https://wenzels.blog/notes/2024-08-06%20Apple%E2%80%99s%20UI%20Hide%20and%20Seek%20on%20macOS/</link>
+	  <description>I found that a UI component of macOS was hidden but functional in Safari.</description>
+	  <pubDate>Tue, 06 Aug 2024 02:00:00 +0000</pubDate>
+	  <dc:creator>Wenzel Massag</dc:creator>
+	  <guid>https://wenzels.blog/notes/2024-08-06%20Apple%E2%80%99s%20UI%20Hide%20and%20Seek%20on%20macOS/</guid>
+	</item>
+	<item>
 	  <title>I wish Apple Mail had PGP support!</title>
 	  <link>https://wenzels.blog/notes/2024-07-14%202%20Encrypted%20emails%20in%20Apple%20Mail/</link>
 	  <description>An open letter to the team working on Apple Mail @ Apple.</description>
