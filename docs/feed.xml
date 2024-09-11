@@ -7,6 +7,14 @@
 	<description>A pensive.</description>
 	<language>en</language>
 	<item>
+	  <title>European GDPR Hypocrisy</title>
+	  <link>https://wenzels.blog/notes/2024-09-11%20European%20GDPR%20Hypocrisy/</link>
+	  <description>I was miffed about cookie banners that force visitors to pay for access or accept third-party cookies. While writing this post I had to accept that I had no right to be.</description>
+	  <pubDate>Wed, 11 Sep 2024 02:00:00 +0000</pubDate>
+	  <dc:creator>Wenzel Massag</dc:creator>
+	  <guid>https://wenzels.blog/notes/2024-09-11%20European%20GDPR%20Hypocrisy/</guid>
+	</item>
+	<item>
 	  <title>Apple’s UI Hide and Seek on macOS</title>
 	  <link>https://wenzels.blog/notes/2024-08-06%20Apple%E2%80%99s%20UI%20Hide%20and%20Seek%20on%20macOS/</link>
 	  <description>I found that a UI component of macOS was hidden but functional in Safari.</description>
