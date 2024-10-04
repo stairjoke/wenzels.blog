@@ -116,3 +116,9 @@ The DMA dictates that shipping new features also means opening up the technologi
 ## Summary
 
 Above, I gave the example of two EU-wide legislative actions which have unwanted side effects. The EU’s Information Technology is far behind its international competition, and the top-down approach of the EU to “fix” Europe’s technology problem looks like it is backfiring. **I think its time to explore how we might turn this ship around and fix the politically induced technology nightmare we are in right now—and also help Europe’s IT sector to become relevant at a bigger scale.**
+
+---
+
+Update October 4, 2024:
+![Screenshot of the iPhone Mirroring app on macOS 15 Sequoia not working in the EU.](assets/2024-06-28%20Europe’s%20IT%20problem%20-%20How%20GDPR%20and%20DMA%20have%20unintended%20consequences.md/CleanShot%202024-10-04%20at%2016.36.00@2x.png)
+If you’re running macOS 15, you can remote-control your iPhone, including drag & drop of files from and to it. Unfortunately, as this is a new technology that uses new APIs, the feature is not available in the EU—likely because it would require Apple to publish those APIs for third party developers while they are still in flux.
