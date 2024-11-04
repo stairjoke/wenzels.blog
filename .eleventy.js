@@ -2,6 +2,7 @@ const markdownIt = require("markdown-it");
 const markdownItAltFigure = require("@stairjoke/markdown-it-alt-figure");
 const markdownItFootnote = require("markdown-it-footnote");
 const markdownItExternalLinks = require("markdown-it-external-links");
+const markdownItReplaceLink = require("markdown-it-replace-link");
 const hljs = require("highlight.js");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
@@ -28,6 +29,10 @@ module.exports = function(eleventyConfig){
 		.use(markdownItExternalLinks, {
 			internalDomains: ["wenzels.blog"],
 			externalTarget: "_blank"
+		})
+		.use(markdownItReplaceLink, {
+			processHTML: true,
+			replaceLink: link => link.replace(/^([^/][^:]*)\.md(#[^#]+)?$/, "./$1/$2"),
 		})
 	);
 	
