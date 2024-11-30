@@ -1,6 +1,6 @@
 ---
 title: On not buying the new Mac Mini
-date: 
+date: 2024-11-30
 teaser: In this semi-rant I explore why I decided not to buy a new Mac Mini M4, and how you can buy one without going crazy or spending too much.
 ---
 When Apple released the new Mac Minis, I was so tempted, i almost ordered one. I ended up not ordering, and I’m glad—fir different reasons though. What kept me from ordering were Apple’s outrageous upgrade prices for a bigger SSD and more Unified Memory.[^Its not RAM, but its often called RAM.] However, what really bugged me was the incredible hostile UX of their configure-page.
