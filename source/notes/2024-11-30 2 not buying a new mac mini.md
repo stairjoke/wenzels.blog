@@ -3,7 +3,7 @@ title: On not buying the new Mac Mini
 date: 2024-11-30
 teaser: In this semi-rant I explore why I decided not to buy a new Mac Mini M4, and how you can buy one without going crazy or spending too much.
 ---
-When Apple released the new Mac Minis, I was so tempted, i almost ordered one. I ended up not ordering, and I’m glad—fir different reasons though. What kept me from ordering were Apple’s outrageous upgrade prices for a bigger SSD and more Unified Memory.[^Its not RAM, but its often called RAM.] However, what really bugged me was the incredible hostile UX of their configure-page.
+When Apple released the new Mac Minis, I was so tempted, i almost ordered one. I ended up not ordering, and I’m glad—fir different reasons though. What kept me from ordering were Apple’s outrageous upgrade prices for a bigger SSD and more Unified Memory (its not RAM, but its often called RAM.) However, what really bugged me was the incredible hostile UX of their configure-page.
 
 Imagine this: you look at the marketing material for the new Mac Mini, you decide to buy, and then you’re presented with this:
 
@@ -16,4 +16,4 @@ When I encountered this UX, I wanted to buy a new Mac, but the four base-configu
 
 As I wrote above, I decided not to buy in the end, because the base model only comes with 256GB SSD and an upgrade to 512 GB is USD 200. An SSD with 512 GB is about USD 30 on Amazon, Apple wants USD 200 for half that? No. Thats an Apple-premium of 6x, its disgusting.
 
-Out of curiosity, I decided to look into how macs could be used with small internal SSDs. Turns out <a href="https://support.apple.com/en-am/guide/app-store/fir06754f864/mac#:~:text=Go%20to%20the%20App%20Store,System%20(APFS)%20formatted%20disk." target=_blank>you can configure the App Store to install large apps on an external drive,</a> and you can also <a href="https://youtu.be/9xPb8iKreJA?si=_1lCkZvHiVtzpqin" target=_blank>move a user’s home folder to an external drive</a>—essentially limiting the SSD to the OS and small apps. This also simplifies Apple’s maze: **Get the cheapest Mac Mini with the chip you want (M4 or M4 Pro) and then use an external drive.**
+Out of curiosity, I decided to look into how macs could be used with small internal SSDs. Turns out [you can configure the App Store to install large apps on an external drive,](https://support.apple.com/en-am/guide/app-store/fir06754f864/mac#:~:text=Go%20to%20the%20App%20Store,System%20(APFS)%20formatted%20disk.) and you can also [move a user’s home folder to an external drive](https://youtu.be/9xPb8iKreJA?si=_1lCkZvHiVtzpqin)—essentially limiting the SSD to the OS and small apps. This also simplifies Apple’s maze: **Get the cheapest Mac Mini with the chip you want (M4 or M4 Pro) and then use an external drive.**
