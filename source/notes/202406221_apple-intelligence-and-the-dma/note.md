@@ -1,6 +1,6 @@
 ---
 title: Apple Intelligence and the DMA
-date: 2024-06-22
+date: 2024-06-22T11:44:00
 teaser: What does the DMA mean for Europe and companies operating within it? In this article I look at the legislative differences between the US and EU and what this means for Apple Intelligence and the European market.
 ---
 When Apple announced Apple Intelligence (AAI), the company plainly stated that it would be in English only, with more languages rolling out later—probably not before next year. With that, Apple also implied, and later confirmed, that the launch of AAI would follow a similar pattern as that of other new products: USA first, then expand into other regions carefully, but as quickly as safely possible. In the weeks since AAI was announced, [Apple released a statement that blames the DMA for the delayed rollout in Europe,](https://www.theverge.com/2024/6/21/24183251/apple-eu-delay-ai-screen-mirroring-shareplay-dma) and many European commentators are fuming.
