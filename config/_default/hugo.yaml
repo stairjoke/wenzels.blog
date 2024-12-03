@@ -1,0 +1,12 @@
+baseURL: 'https://stairjoke.ninja/'
+languageCode: 'en-US'
+title: 'Wenzels Website'
+params:
+	contact:
+		email: ISwearThisIsnotASPAMEmail@stairjoke.ninja
+		mastodon:
+			label: @stairjoke@indieweb.social
+			url: https://indieweb.social/@stairjoke
+		bluesky:
+			label: @stairjoke.ninja
+			url: https://bsky.app/profile/stairjoke.ninja
