@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "90727dd482e99b98",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f2338b0f6df4ad2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d78eb65afdc581eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "202212020_apple-music-replay-2022/note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "note"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1a23f9e2cb77bc58",
+    "type": "split",
+    "children": [
+      {
+        "id": "480128a0770a823d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c074acd4e992451",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "763c50334e807643",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f6ca01a74a6b7bd6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5f74a7561ad5beb9",
+    "type": "split",
+    "children": [
+      {
+        "id": "51ee50b52732c7da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "929a53efe8fead47",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-11-04 Two years of Mastodon.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024-11-04 Two years of Mastodon"
+            }
+          },
+          {
+            "id": "78ee895a213871d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-11-04 Two years of Mastodon.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-11-04 Two years of Mastodon"
+            }
+          },
+          {
+            "id": "6d244e32245b26a1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "620e468a42ba43ab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024-11-04 Two years of Mastodon.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2024-11-04 Two years of Mastodon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d78eb65afdc581eb",
+  "lastOpenFiles": [
+    "202412010_down-ranking-on-social-media/note.md",
+    "202412010_down-ranking-on-social-media",
+    "202411300_aperture-3/note.md",
+    "202411300_aperture-3",
+    "202411302_not-buying-a-new-mac-mini/note.md",
+    "202411302_not-buying-a-new-mac-mini/CleanShot 2024-11-30 at 20.41.39@2x.jpeg",
+    "202411302_not-buying-a-new-mac-mini",
+    "202411062_the-big-congratulating/note.md",
+    "202411062_the-big-congratulating",
+    "202411061_apples-cringe-intelligence-ads/note.md",
+    "202411061_apples-cringe-intelligence-ads/CleanShot 2024-11-05 at 11.30.55@2x.jpeg",
+    "202411061_apples-cringe-intelligence-ads/CleanShot 2024-11-05 at 11.30.40@2x.jpeg",
+    "202411061_apples-cringe-intelligence-ads",
+    "202411042_here-is-to-sanity/note.md",
+    "202411042_here-is-to-sanity",
+    "202411041_two-years-of-mastodon/note.md",
+    "202411041_two-years-of-mastodon",
+    "202409110_european-gdpr-hypocrisy/pexels-pixabay-208984 copy.jpg",
+    "202409110_european-gdpr-hypocrisy/note.md",
+    "202409110_european-gdpr-hypocrisy/CleanShot 2024-09-11 at 13.56.43 2@2x.png",
+    "202409110_european-gdpr-hypocrisy",
+    "202408060_apples-ui-hide-and-seek-on-macos/note.md",
+    "202408060_apples-ui-hide-and-seek-on-macos/CleanShot 2024-08-06 at 11.08.03@2x.png",
+    "202408060_apples-ui-hide-and-seek-on-macos",
+    "202407142_encrypted-emails-in-apple-mail/note.md",
+    "202407142_encrypted-emails-in-apple-mail",
+    "202407141_europes-it-problem---how-gdpr-and-dma-have-unintended-consequences/note.md",
+    "202407141_europes-it-problem---how-gdpr-and-dma-have-unintended-consequences/CleanShot 2024-10-04 at 16.36.00@2x.png",
+    "202406223_apple-intelligence-and-electron-apps/note.md",
+    "202406222_thoughts-on-apple-intelligence/note.md",
+    "20240622_1-apple-intelligence-and-the-dma/note.md",
+    "202406221_apple-intelligence-and-the-dma/note.md",
+    "202406040_unlearning-how-to-code-and-think/note.md",
+    "202405270_asking-siri-about-the-weather/note.md",
+    "202405260_gruber-is-mad-about-spotify-and-the-eu-again/note.md",
+    "202405250_being-late-to-the-ai-party-is-good-for-apple/note.md",
+    "202405250_being-late-to-the-ai-party-is-good-for-apple/CleanShot 2024-05-25 at 10.23.14@2x.jpeg",
+    "202405250_being-late-to-the-ai-party-is-good-for-apple/Apple Predictive Text Poster.jpg",
+    "202405190_do-early-adopters-overestimate-their-importance/note.md",
+    "202405170_apples-attention-apple-pencil-pro/note.md",
+    "202405170_apples-attention-apple-pencil-pro/CleanShot 2024-05-17 at 09.34.14@2x.png",
+    "202405150_lost-thoughts-or-where-to-publish/note.md",
+    "202405120_link-in-bio/note.md",
+    "202404170_thoughts-on-the-scarcity-of-time/note.md",
+    "202404100_why-ill-buy-a-new-iphone-despite-disliking-it/note.md",
+    "202403240_how-apple-is-killing-imessage-in-europe/note.md"
+  ]
+}
