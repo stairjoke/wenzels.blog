@@ -1,25 +1,27 @@
 {
-  "name": "getkirby/plainkit",
-  "description": "Kirby Plainkit",
+  "name": "Stairjoke.Ninja",
+  "description": "A personal website based on Kirby CMS’ Plainkit",
   "type": "project",
   "keywords": [
     "kirby",
     "cms",
-    "plainkit"
+    "plainkit",
+    "indieweb",
+    "personal website",
+    "homepage"
   ],
   "authors": [
     {
+      "name": "Wenzel Massag",
+      "email": "wenzel@stairjoke.ninja",
+      "homepage": "https://stairjoke.ninja"
+    }, {
       "name": "Bastian Allgeier",
       "email": "bastian@getkirby.com",
       "homepage": "https://getkirby.com"
     }
   ],
-  "homepage": "https://getkirby.com",
-  "support": {
-    "email": "support@getkirby.com",
-    "forum": "https://forum.getkirby.com",
-    "source": "https://github.com/getkirby/plainkit"
-  },
+  "homepage": "https://stairjoke.ninja",
   "require": {
     "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
     "getkirby/cms": "^4.0"
