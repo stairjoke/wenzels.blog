@@ -1,8 +1,8 @@
 # System files
 # ------------
 
-Icon
-.DS_Store
+macOS
+**/.DS_Store
 
 # Temporary files
 # ---------------
@@ -21,7 +21,6 @@ Icon
 *.sublime-workspace
 /.vscode
 /.idea
-**/.obsidian
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
@@ -49,3 +48,9 @@ Icon
 # ---------------
 
 /site/config/.license
+
+# -----------CONTENT-----------
+# Temporarily exclude from git.
+# -----------CONTENT-----------
+
+/content
