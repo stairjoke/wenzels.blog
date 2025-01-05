@@ -3,7 +3,7 @@
   <?= snippet('head') ?>
   <body>
     <?= snippet('header') ?>
-    <?= snippet('default') ?>
+    <?= snippet('note') ?>
     <?= snippet('footer') ?>
   </body>
 </html>
