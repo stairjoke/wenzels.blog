@@ -49,9 +49,9 @@ macOS
 
 /site/config/.license
 
-# -----------KIRBY-----------
+# ------------------------------KIRBY------------------------------
 # Excludes the Kirby install files available via `composer install`
-# -----------KIRBY-----------
+# ------------------------------KIRBY------------------------------
 
 /vendor
 /kirby
