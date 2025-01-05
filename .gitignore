@@ -21,6 +21,7 @@ macOS
 *.sublime-workspace
 /.vscode
 /.idea
+/.nova
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
