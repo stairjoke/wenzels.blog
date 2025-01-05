@@ -1,0 +1,107 @@
+/*
+	Wenzels.Blog -- Layout
+*/
+
+@use "mixins";
+
+main, footer, header .container {
+	max-width: 16cm;
+	margin: 0 auto;
+	padding: 0;
+	@include mixins.margin-trim-block();
+}
+
+header {
+	@supports (margin: 2rlh 0) {
+		margin: 0 0 2rlh 0;
+	}
+	@supports not (margin: 1rlh 0) {
+		margin: 0 0 calc(2rem * var(--line-height-factor)) 0;
+	}
+	
+	padding: 1rem;
+	background-color: var(--color-group);
+	border-radius: var(--radius-block-elements);
+	
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	
+	a {
+		padding: .25rem .5rem;
+		text-decoration: none !important;
+		border-radius: var(--radius-inline-elements);
+		border: solid 1px transparent;
+		
+		background: url("wave.svg");
+		background-position: 0 calc(1em + .75rem);
+		background-repeat: repeat-x;
+		
+		transition-property: background-position-y, color, border-color;
+		transition-duration: 2s;
+		transition-timing-function: linear;
+		
+		&:visited {
+			color: var(--color-accent);
+		}
+		
+		&:hover, &:focus {
+			color: white;
+			border-left-color: var(--color-text-dimmed);
+			border-bottom-color: var(--color-text-dimmed);
+			border-right-color: var(--color-text-dimmed);
+			
+			background-position: 60px 0;
+			
+			transition-property: background-position, color, border-color;
+			transition-duration: 1s;
+			transition-timing-function: ease-out;
+		}
+		
+		&:focus-visible {
+			outline: solid 2px var(--color-accent-hover);
+		}
+	}
+	
+	#pageTitle {
+		font-size: 1rem;
+		margin: 0 auto 0 0;
+		line-height: var(--line-height-factor);
+		
+		a {
+			text-decoration: none;
+		}
+	}
+	
+	ol {
+		list-style: none;
+		margin: 0;
+		margin-right: -.5rem; // Pull list content text to right edge of text (see padding of A inside LI)
+		padding: 0;
+		display: flex;
+		flex-direction: row;
+		
+		li {
+			margin: 0;
+			padding: 0;
+			margin-inline: 1px;
+		}
+	}
+}
+
+footer {
+	@supports (margin: 2rlh 0) {
+		margin-top: 2rlh;
+		margin-bottom: 4rlh;
+	}
+	@supports not (margin: 1rlh 0) {
+		margin-top: calc(2rem * var(--line-height-factor));
+		margin-bottom: calc(4rem * var(--line-height-factor));
+	}
+	.copy {
+		font-size: .8rem;
+		color: var(--color-text-dimmed);
+	}
+}

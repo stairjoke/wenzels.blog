@@ -1,0 +1,54 @@
+/*
+	Wenzels.Blog -- Misc Elements
+*/
+
+@use "../mixins";
+
+#permalink {
+	a {
+		text-decoration: none !important;
+	}
+}
+
+ol.list-of-posts {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+	li {
+		@include mixins.margin-trim-block();
+		
+		@supports (margin: 2rlh 0) {
+			margin: 2rlh 0;
+		}
+		@supports not (margin: 1rlh 0) {
+			margin: calc(2rem * var(--line-height-factor)) 0;
+		}
+		padding: 0;
+	}
+}
+
+@media (max-width: 360px) {
+	.viewport-hideOnXS {
+		display: block;
+		position: absolute;
+		left: -10000px;
+		opacity: 0;
+	}
+}
+
+span[role=img] {
+	speak: none;
+}
+
+img, video {
+	max-width: 100%;
+	height: auto;
+	border-radius: var(--radius-block-elements);
+}
+
+hr {
+	border: none;
+	border-top: dashed 1px var(--color-text-dimmed);
+	margin-block: 1rem;
+}
