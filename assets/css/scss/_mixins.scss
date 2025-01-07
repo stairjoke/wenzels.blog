@@ -1,4 +1,6 @@
-// Wenzels.blog - Sass Mixins
+/*
+  Wenzels.blog -- Sass Mixins
+*/
 
 @mixin margin-trim-block(){
 	@supports (margin-trim: block){

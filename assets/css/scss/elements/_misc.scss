@@ -1,5 +1,5 @@
 /*
-	Wenzels.Blog -- Misc Elements
+	Stairjoke.Ninja -- Misc Elements
 */
 
 @use "../mixins";
@@ -14,10 +14,10 @@ ol.list-of-posts {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	
+
 	li {
 		@include mixins.margin-trim-block();
-		
+
 		@supports (margin: 2rlh 0) {
 			margin: 2rlh 0;
 		}

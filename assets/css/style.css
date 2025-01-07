@@ -1,8 +1,12 @@
 /*
 	Stairjoke.Ninja -- Styles
 */
-/* - Ions */
-/* |-- Color Variables */
+/*
+  Stairjoke.Ninja -- Ions
+ */
+/*/
+  Stairjoke.Ninja -- Color Variables
+*/
 :root {
   --color-debug: #f0f;
   --color-group: #f4f4f4;
@@ -43,14 +47,19 @@
 	}
 }
 */
-/* |-- Length variables */
+/*
+  Stairjoke.Ninja -- Length variables
+*/
 :root {
   --radius-inline-elements: .25rem;
   --radius-block-elements: 1rem;
 }
 
 /*
-	Wenzels.Blog -- Typography
+  Wenzels.blog -- Sass Mixins
+*/
+/*
+	Stairjoke.Ninja -- Typography
 */
 body {
   font-family: ui-serif, "New York", "Georgia", "Palatino", "Times New Roman", serif;
@@ -126,7 +135,7 @@ a:hover, a:focus {
 }
 
 /*
-	Wenzels.Blog -- Layout
+	Stairjoke.Ninja -- Layout
 */
 main, footer, header .container {
   max-width: 16cm;
@@ -235,7 +244,7 @@ footer .copy {
 }
 
 /*
-	Wenzels.blog -- Figure
+	Stairjoke.Ninja -- Figure
 */
 figure {
   margin-block: 2rlh;
@@ -260,7 +269,7 @@ figure figcaption {
 }
 
 /*
-	Wenzels.Blog -- Misc Elements
+	Stairjoke.Ninja -- Misc Elements
 */
 #permalink a {
   text-decoration: none !important;
@@ -322,6 +331,9 @@ hr {
   margin-block: 1rem;
 }
 
+/*
+  Stairjoke.Ninja -- Post Head
+*/
 .postHead {
   display: flex;
   flex-direction: row;
