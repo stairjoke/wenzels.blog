@@ -182,7 +182,7 @@ header a {
   border-radius: var(--radius-inline-elements);
   border: solid 1px transparent;
   background: url("/assets/wave.svg");
-  background-position: 0 calc(1em + 0.75rem);
+  background-position: 0 calc(1em + 0.77rem);
   background-repeat: repeat-x;
   transition-property: background-position-y, color, border-color;
   transition-duration: 2s;
