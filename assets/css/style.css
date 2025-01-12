@@ -134,6 +134,15 @@ a:hover, a:focus {
   background: var(--color-highlight);
 }
 
+.copy {
+  font-size: 0.8rem;
+  color: var(--color-text-dimmed);
+}
+
+.ai-instruction {
+  display: none;
+}
+
 /*
 	Stairjoke.Ninja -- Layout
 */
@@ -237,10 +246,6 @@ header ol li {
     margin-top: calc(2rem * var(--line-height-factor));
     margin-bottom: calc(4rem * var(--line-height-factor));
   }
-}
-footer .copy {
-  font-size: 0.8rem;
-  color: var(--color-text-dimmed);
 }
 
 /*

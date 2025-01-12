@@ -73,3 +73,12 @@ a {
 ::selection {
 	background: var(--color-highlight);
 }
+
+.copy {
+  font-size: .8rem;
+  color: var(--color-text-dimmed);
+}
+
+.ai-instruction {
+  display: none;
+}
