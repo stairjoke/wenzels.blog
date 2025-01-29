@@ -4,5 +4,5 @@
     <?= snippet('time', ['item' => $page]) ?>
   </div>
   <?= $page->text()->kt() ?>
-  <p id="permalink"><a href="{{ page.url | safe }}">⌞w⌝</a></p>
+  <p id="permalink"><a href="<?= $page->permalink() ?>">⌞w⌝</a></p>
 </main>
