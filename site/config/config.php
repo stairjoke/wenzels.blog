@@ -3,7 +3,7 @@
   return [
     'date' => [
       'handler' => 'intl',
-      'format' => 'MMMM dd, YYYY HH:mm',
+      'EN' => 'MMMM dd, YYYY HH:mm',
       'HTML' => "yyyy-MM-dd'T'HH:mmXXX",
       'RSS' => "EEE, dd MMM yyyy HH:mm:ss ZZZZ"
     ],
