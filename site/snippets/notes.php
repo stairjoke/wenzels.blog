@@ -1,12 +1,13 @@
 <main>
   <ol class="list-of-posts">
-    {% for note in collections.note | reverse %}
-    <li{% if page.url == note.url %} aria-current=page{% endif %}>
+    <?php foreach($page->children()->listed()->flip() as $item): ?>
+    <li>
       <div class="postHead">
-        <h2><a href="{{ note.url }}"{% if note.data.title == "Note" %} class="note" {% endif %}>{{ note.data.title }}</a></h2>
-        <time datetime="{{ note.date | dateToRfc822 }}">{{ note.date | friendlyDate }}</time>
+        <h2><a href="<?= $item->permalink() ?>" class="note"><?= $item->title() ?></a></h2>
+        <time datetime="<?= $item->date()->toDate(option('format.HTML')) ?>"><?= $item->date()->toDate(option('date.EN')) ?></time>
       </div>
-      <p>{{ note.data.teaser }}</p>
-    </li>{% endfor %}
+      <?= $item->teaser()->md() ?>
+    </li>
+    <?php endforeach; ?>
   </ol>
 </main>
