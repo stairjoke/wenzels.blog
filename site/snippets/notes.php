@@ -4,7 +4,7 @@
     <li>
       <div class="postHead">
         <h2><a href="<?= $item->permalink() ?>" class="note"><?= $item->title() ?></a></h2>
-        <time datetime="<?= $item->date()->toDate(option('format.HTML')) ?>"><?= $item->date()->toDate(option('date.EN')) ?></time>
+        <?= snippet('time', ['item' => $item]) ?>
       </div>
       <?= $item->teaser()->md() ?>
     </li>
