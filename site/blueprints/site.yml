@@ -1,5 +1,49 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
+columns:
+  - width: 2/3
+    sections:
+      pages:
+        type: pages
+
+  - width: 1/3
+    sections:
+      global:
+        type: fields
+        fields:
+          links:
+            label:
+              en: External Links
+              de: Externe Links
+            type: structure
+            fields:
+              text:
+                label:
+                  en: Link-text
+                  de: Link-Text
+                type: text
+              rel:
+                label:
+                  en: Relation
+                  de: Verhältnis
+                type: checkboxes
+                options:
+                  me:
+                    en: Me
+                    de: Ich
+              href:
+                label: URL
+                type: text
+          copyrightName:
+            label:
+              en: Copyright holder
+              de: Urheber
+            type: text
+          copyrightNotice:
+            label:
+              en: Additional copyright information
+              de: Zusätzliche Urheberrechtsinformationen
+            type: textarea
+            buttons: false
+            counter: true
+
