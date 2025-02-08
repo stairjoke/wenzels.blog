@@ -7,15 +7,20 @@ columns:
       fields:
         type: fields
         fields:
-          text:
-            type: textarea
-            size: huge
+          blocks:
+            type: blocks
   sidebar:
     width: 1/3
     sections:
       pages:
+        label:
+          en: Child-Pages
+          de: Unterseiten
         type: pages
         template: default
       files:
         type: files
+        label:
+          en: Page-Files
+          de: Dateien dieser Seite
 
